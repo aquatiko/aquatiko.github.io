@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenSource on Rohit Kumar</title>
+    <link>https://aquatiko.github.io/series/opensource/</link>
+    <description>Recent content in OpenSource on Rohit Kumar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Fri, 12 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://aquatiko.github.io/series/opensource/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why I started Open-Source</title>
+      <link>https://aquatiko.github.io/blog/2019-04/why-i-started-open-source/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/blog/2019-04/why-i-started-open-source/</guid>
+      <description>After more than 6 months into this, this question almost seems silly to me&amp;hellip; I remember the first week of September 2018, I was desperate to find just a single good enough reason for convincing me to contribute to the Open-Source community. I wanted to participate in GSoC but the idea of spending my own personal time into someone else project was not convincing me. Even after this, something changed and convinced me to do so. I hope by the end of it, you too will be convinced or at least give it a thought!!
+Back in those days, I was exploring the depths of Deep Learning. My interest was divided among the most exciting domains popular those days. But somehow NLP was the top one. It was fascinating and enough to keep me there. The same year, two of my seniors became the first batch to crack GSoC from my college. I can say, it totally sparked hope in others.
+I remember the day 15th September, I decided I too want it and started preparing for it. I know it was way too early to aim for it, but at that time I was familiar only with some markdown syntax and basic GitHub interface.</description>
+    </item>
+    
+  </channel>
+</rss>

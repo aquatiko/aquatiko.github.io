@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GSoC on Rohit Kumar</title>
+    <link>https://aquatiko.github.io/tags/gsoc/</link>
+    <description>Recent content in GSoC on Rohit Kumar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Thu, 09 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://aquatiko.github.io/tags/gsoc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GSoC Initilization: The results day</title>
+      <link>https://aquatiko.github.io/blog/2019-05/gsoc-initilization-the-results-day/</link>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/blog/2019-05/gsoc-initilization-the-results-day/</guid>
+      <description>It dosen&amp;rsquo;t seems possible until it&amp;rsquo;s done!! The day 6th of March 2019 will always be remembered when dreams actually came true.
+We were having our end semester exams and results were going to be displayed at 11:30 PM according to our time-zone. We had the last exam tomorrow at 4 pm and the pressure of GSoC was intense. I came to my hostel dorm after finishing the 4 pm exam that day and I had to study for the last one. I have submitted two proposals for GSoC, one for JuliaText in JuliaLang and other to JuliaAstro in OpenAstronomy. I have worked equally for both of them, maybe a bit more for JuliaText&amp;rsquo;s NLP one. I had an assurance that one of them might get in as I gave my all for them. Strict personal deadlines, iteration of thoughts and planning the best possible ways to strengthen my proposal.
+So, I started studying for the last exam around 7-8pm and at the start, I wasn&amp;rsquo;t feeling the pressure of GSoC that much. And as time passed, minutes seemed like hours and the panic grew stronger. I just couldn&amp;rsquo;t wait till 11:30 PM. So, I was in a state where I couldn&amp;rsquo;t focus enough to let that thought go away and study for the last exam.</description>
+    </item>
+    
+  </channel>
+</rss>

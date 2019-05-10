@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology on Rohit Kumar</title>
+    <link>https://aquatiko.github.io/series/technology/</link>
+    <description>Recent content in technology on Rohit Kumar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://aquatiko.github.io/series/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Collaboratory: Your PitStop</title>
+      <link>https://aquatiko.github.io/blog/2019-04/google-collaboratory-your-pitstop/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/blog/2019-04/google-collaboratory-your-pitstop/</guid>
+      <description>Are you starting on your deep learning journey and things are processing slow!! Or you are already on one and don’t want to buy costly computers for your deep learning endeavors or the cloud computation resources like AWS ,Azure or GCP seems too complicated? Well, Google’s collaboratory is pretty easy and handy tool which will get you started right away!!
+So what is Google’s Collaboratory? It is a free cloud based service by Google for developers to experiment with their snippets of python codes. It is a Jupyter notebook type interface which you can use just as your standard python compiler but with more features. Also on top of that it provides you a free Tesla K80 GPU for a run-time of 12hours and after that you only have to re-connect with the service again with a single click!! So in short, unless you have a huge task which would take huge resources and time, you can use Google collab for a faster runtime.
+Getting Started Head to your google drive-&amp;gt; click on “New(+)” sign -&amp;gt; click on “More” -&amp;gt; click on “Connect more apps”-&amp;gt; search “collaboratory” and add it. (One time process) You can create a new notebook(compiler) by-&amp;gt; click on “New(+)” sign -&amp;gt; click on “more” -&amp;gt; click on “collaboratory”.</description>
+    </item>
+    
+  </channel>
+</rss>

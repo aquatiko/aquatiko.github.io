@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://aquatiko.github.io/blog/</loc>
+    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/series/gsoc/</loc>
+    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/tags/gsoc/</loc>
+    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/blog/2019-05/gsoc-initilization-the-results-day/</loc>
+    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/</loc>
+    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/series/</loc>
+    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/tags/</loc>
+    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/tags/life/</loc>
+    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/blog/2019-04/google-collaboratory-your-pitstop/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/series/technology/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/tags/technology/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/series/opensource/</loc>
+    <lastmod>2019-04-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/blog/2019-04/why-i-started-open-source/</loc>
+    <lastmod>2019-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/tags/open-source/</loc>
+    <lastmod>2019-04-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/upcoming/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
