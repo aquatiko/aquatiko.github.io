@@ -6,10 +6,21 @@
     <description>Recent content on Rohit Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Thu, 09 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aquatiko.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What Coala Organization taught me: Reaching beyond the beginners threshold</title>
+      <link>https://aquatiko.github.io/blog/2019-05/what-coala-organization-taught-me-reaching-beyond-the-beginners-threshold/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/blog/2019-05/what-coala-organization-taught-me-reaching-beyond-the-beginners-threshold/</guid>
+      <description>So, you have finally convinced yourself to enter the realm of Open Source Development. But wait, the initial threshold of getting to speed in this domain is feeling too difficult for you. You are struggling to do your very first contribution in a big Open-Source repository. The huge code-base is too overwhelming and difficult to understand. The issues marked as simple are also too difficult to comprehend. There are just too many things you still don&amp;rsquo;t know. The list of things you are seeing for the first time is growing day by day. It seems it&amp;rsquo;s a bad choice after all?
+So my dear open-sorcerer, have some hope. This feeling is mutual with at-least 60% of the people out there. It always starts with a bumpy road but if you can cross that part, believe me, the road ahead is smoother than you can imagine.
+I started with OSS on 15th Sept with zero knowledge of this domain, I just knew some of the features of GitHub GUI. My first PR was to NLTK on 22nd Sept and for that whole week, I was struggling to just get my first PR in. The issue tracker and the vast code-base to work on was not intuitive enough to get past that threshold.</description>
+    </item>
     
     <item>
       <title>GSoC Initilization: The results day</title>

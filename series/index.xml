@@ -6,10 +6,19 @@
     <description>Recent content in Series on Rohit Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Thu, 09 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aquatiko.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Opensource</title>
+      <link>https://aquatiko.github.io/series/opensource/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/series/opensource/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GSoC</title>
@@ -21,20 +30,20 @@
     </item>
     
     <item>
+      <title>technical writing</title>
+      <link>https://aquatiko.github.io/series/technical-writing/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/series/technical-writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>technology</title>
       <link>https://aquatiko.github.io/series/technology/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://aquatiko.github.io/series/technology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenSource</title>
-      <link>https://aquatiko.github.io/series/opensource/</link>
-      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://aquatiko.github.io/series/opensource/</guid>
       <description></description>
     </item>
     
