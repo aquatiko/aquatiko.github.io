@@ -6,10 +6,24 @@
     <description>Recent content on Rohit Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Tue, 14 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aquatiko.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>WCS.jl Package Analysis</title>
+      <link>https://aquatiko.github.io/blog/2019-05/wcs.jl-package-analysis/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/blog/2019-05/wcs.jl-package-analysis/</guid>
+      <description>Why WCS.jl package After the introduction of package FITSIO.jl for handling FITS files in Julia, another package was required to manage the World Coordinate System(WCS) transformations of a FITS object. The WCS info. is present in the header of one of the HDU(s) of a FITS file. These transformations map the pixel locations in an image to their real-world units, such as their position on the sky sphere. These transformations can work both forward (from pixel to sky) and backward (from sky to pixel). This package wraps the WCSLIB C library.
+Installation WCS.jl is a registered package in Julia and can be installed from package manager as: pkg&amp;gt; add WCS
+or it can be build from source as: julia&amp;gt; Pkg.clone(&amp;quot;https://github.com/JuliaAstro/WCS.jl&amp;quot;)
+Usage After installing the package, you can start using it with julia&amp;gt; using WCS
+Creating a WCS object WCS objects are defined by a type WCSTransform which contains the following fields based on the information present in the header:
+ flag::Cint naxis::Cint crpix::Ptr{Cdouble} pc::Ptr{Cdouble} cdelt::Ptr{Cdouble} crval::Ptr{Cdouble} cunit::Ptr{Cvoid} ctype::Ptr{Cvoid} lonpole::Cdouble latpole::Cdouble restfrq::Cdouble restwav::Cdouble npv::Cint npvmax::Cint pv::Ptr{PVCard} nps::Cint npsmax::Cint ps::Ptr{PSCard} cd::Ptr{Cdouble} crota::Ptr{Cdouble} altlin::Cint velref::Cint alt::NTuple{4, UInt8} colnum::Cint colax::Ptr{Cint} cname::Ptr{Cvoid} crder::Ptr{Cdouble} csyer::Ptr{Cdouble} czphs::Ptr{Cdouble} cperi::Ptr{Cdouble} wcsname::NTuple{72, UInt8} timesys::NTuple{72, UInt8} trefpos::NTuple{72, UInt8} trefdir::NTuple{72, UInt8} plephem::NTuple{72, UInt8} timeunit::NTuple{72, UInt8} dateref::NTuple{72, UInt8} mjdref::NTuple{2, Cdouble} timeoffs::Cdouble dateobs::NTuple{72, UInt8} datebeg::NTuple{72, UInt8} dateavg::NTuple{72, UInt8} dateend::NTuple{72, UInt8} mjdobs::Cdouble mjdbeg::Cdouble mjdavg::Cdouble mjdend::Cdouble jepoch::Cdouble bepoch::Cdouble tstart::Cdouble tstop::Cdouble xposure::Cdouble telapse::Cdouble timsyer::Cdouble timrder::Cdouble timedel::Cdouble timepixr::Cdouble obsgeo::NTuple{6, Cdouble} obsorbit::NTuple{72, UInt8} radesys::NTuple{72, UInt8} equinox::Cdouble specsys::NTuple{72, UInt8} ssysobs::NTuple{72, UInt8} velosys::Cdouble zsource::Cdouble ssyssrc::NTuple{72, UInt8} velangl::Cdouble ntab::Cint nwtb::Cint tab::Ptr{Cvoid} # Ptr{tabprm} wtb::Ptr{Cvoid} # Ptr{wtbarr} lngtyp::NTuple{8, UInt8} lattyp::NTuple{8, UInt8} lng::Cint lat::Cint spec::Cint cubeface::Cint types::Ptr{Cint} lin::linprm cel::celprm spc::spcprm err::Ptr{WCSErr} m_flag::Cint m_naxis::Cint m_crpix::Ptr{Cdouble} m_pc::Ptr{Cdouble} m_cdelt::Ptr{Cdouble} m_crval::Ptr{Cdouble} m_cunit::Ptr{Cvoid} m_ctype::Ptr{Cvoid} m_pv::Ptr{PVCard} m_ps::Ptr{PSCard} m_cd::Ptr{Cdouble} m_crota::Ptr{Cdouble} m_colax::Ptr{Cint} m_cname::Ptr{Cvoid} m_crder::Ptr{Cdouble} m_csyer::Ptr{Cdouble} m_czphs::Ptr{Cdouble} m_cperi::Ptr{Cdouble} m_tab::Ptr{Cvoid} # Ptr{tabprm} m_wtb::Ptr{Cvoid} # Ptr{wtbarr}  Creating from scratch To create a WCSTransform from scratch, we can use the constructor like:</description>
+    </item>
     
     <item>
       <title>What Coala Organization taught me: Reaching beyond the beginners threshold</title>

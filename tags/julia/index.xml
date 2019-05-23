@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GSoC on Rohit Kumar</title>
-    <link>https://aquatiko.github.io/series/gsoc/</link>
-    <description>Recent content in GSoC on Rohit Kumar</description>
+    <title>Julia on Rohit Kumar</title>
+    <link>https://aquatiko.github.io/tags/julia/</link>
+    <description>Recent content in Julia on Rohit Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
     <lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://aquatiko.github.io/series/gsoc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aquatiko.github.io/tags/julia/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -23,17 +23,6 @@ or it can be build from source as: julia&amp;gt; Pkg.clone(&amp;quot;https://git
 Usage After installing the package, you can start using it with julia&amp;gt; using WCS
 Creating a WCS object WCS objects are defined by a type WCSTransform which contains the following fields based on the information present in the header:
  flag::Cint naxis::Cint crpix::Ptr{Cdouble} pc::Ptr{Cdouble} cdelt::Ptr{Cdouble} crval::Ptr{Cdouble} cunit::Ptr{Cvoid} ctype::Ptr{Cvoid} lonpole::Cdouble latpole::Cdouble restfrq::Cdouble restwav::Cdouble npv::Cint npvmax::Cint pv::Ptr{PVCard} nps::Cint npsmax::Cint ps::Ptr{PSCard} cd::Ptr{Cdouble} crota::Ptr{Cdouble} altlin::Cint velref::Cint alt::NTuple{4, UInt8} colnum::Cint colax::Ptr{Cint} cname::Ptr{Cvoid} crder::Ptr{Cdouble} csyer::Ptr{Cdouble} czphs::Ptr{Cdouble} cperi::Ptr{Cdouble} wcsname::NTuple{72, UInt8} timesys::NTuple{72, UInt8} trefpos::NTuple{72, UInt8} trefdir::NTuple{72, UInt8} plephem::NTuple{72, UInt8} timeunit::NTuple{72, UInt8} dateref::NTuple{72, UInt8} mjdref::NTuple{2, Cdouble} timeoffs::Cdouble dateobs::NTuple{72, UInt8} datebeg::NTuple{72, UInt8} dateavg::NTuple{72, UInt8} dateend::NTuple{72, UInt8} mjdobs::Cdouble mjdbeg::Cdouble mjdavg::Cdouble mjdend::Cdouble jepoch::Cdouble bepoch::Cdouble tstart::Cdouble tstop::Cdouble xposure::Cdouble telapse::Cdouble timsyer::Cdouble timrder::Cdouble timedel::Cdouble timepixr::Cdouble obsgeo::NTuple{6, Cdouble} obsorbit::NTuple{72, UInt8} radesys::NTuple{72, UInt8} equinox::Cdouble specsys::NTuple{72, UInt8} ssysobs::NTuple{72, UInt8} velosys::Cdouble zsource::Cdouble ssyssrc::NTuple{72, UInt8} velangl::Cdouble ntab::Cint nwtb::Cint tab::Ptr{Cvoid} # Ptr{tabprm} wtb::Ptr{Cvoid} # Ptr{wtbarr} lngtyp::NTuple{8, UInt8} lattyp::NTuple{8, UInt8} lng::Cint lat::Cint spec::Cint cubeface::Cint types::Ptr{Cint} lin::linprm cel::celprm spc::spcprm err::Ptr{WCSErr} m_flag::Cint m_naxis::Cint m_crpix::Ptr{Cdouble} m_pc::Ptr{Cdouble} m_cdelt::Ptr{Cdouble} m_crval::Ptr{Cdouble} m_cunit::Ptr{Cvoid} m_ctype::Ptr{Cvoid} m_pv::Ptr{PVCard} m_ps::Ptr{PSCard} m_cd::Ptr{Cdouble} m_crota::Ptr{Cdouble} m_colax::Ptr{Cint} m_cname::Ptr{Cvoid} m_crder::Ptr{Cdouble} m_csyer::Ptr{Cdouble} m_czphs::Ptr{Cdouble} m_cperi::Ptr{Cdouble} m_tab::Ptr{Cvoid} # Ptr{tabprm} m_wtb::Ptr{Cvoid} # Ptr{wtbarr}  Creating from scratch To create a WCSTransform from scratch, we can use the constructor like:</description>
-    </item>
-    
-    <item>
-      <title>GSoC Initilization: The results day</title>
-      <link>https://aquatiko.github.io/blog/2019-05/gsoc-initilization-the-results-day/</link>
-      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://aquatiko.github.io/blog/2019-05/gsoc-initilization-the-results-day/</guid>
-      <description>It dosen&amp;rsquo;t seems possible until it&amp;rsquo;s done!! The day 6th of March 2019 will always be remembered when dreams actually came true.
-We were having our end semester exams and results were going to be displayed at 11:30 PM according to our time-zone. We had the last exam tomorrow at 4 pm and the pressure of GSoC was intense. I came to my hostel dorm after finishing the 4 pm exam that day and I had to study for the last one. I have submitted two proposals for GSoC, one for JuliaText in JuliaLang and other to JuliaAstro in OpenAstronomy. I have worked equally for both of them, maybe a bit more for JuliaText&amp;rsquo;s NLP one. I had an assurance that one of them might get in as I gave my all for them. Strict personal deadlines, iteration of thoughts and planning the best possible ways to strengthen my proposal.
-So, I started studying for the last exam around 7-8pm and at the start, I wasn&amp;rsquo;t feeling the pressure of GSoC that much. And as time passed, minutes seemed like hours and the panic grew stronger. I just couldn&amp;rsquo;t wait till 11:30 PM. So, I was in a state where I couldn&amp;rsquo;t focus enough to let that thought go away and study for the last exam.</description>
     </item>
     
   </channel>
