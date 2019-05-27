@@ -6,10 +6,22 @@
     <description>Recent content in life on Rohit Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Tue, 14 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aquatiko.github.io/tags/life/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Community Bonding Period: JuliaAstro</title>
+      <link>https://aquatiko.github.io/blog/2019-05/community-bonding-period-juliaastro/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/blog/2019-05/community-bonding-period-juliaastro/</guid>
+      <description>Why this Community Bonding Period(CBP)? According to Google,
+&amp;ldquo;The community bonding period is when you work out further details of your project plan, schedule regular upcoming meetings with your mentor, get your development environment set up and start to engage with the project’s open source community. This is the time to work with your mentor on setting expectations for your interactions and how your progress is measured during the GSoC program. Hopefully, you have already participated in many discussions with your mentor, clarifying the project and expectations during the application period, but now is the time to finalize your plans.&amp;rdquo;
+How this period went for me? It really fulfilled everything it was supposed to. Hats off to Google for this initiative of adding an extra month in the timeline. So, In my whole project, I had most of the things figured out, like what will go in, what will go out, how will it be structured and implemented. Despite this, it follows a big BUT&amp;hellip;
+But a very crucial and challenging task is to port reproject from astropy. It&amp;rsquo;s like the most important feature of the project and requires some complex work like understanding the python version and figuring out a Julian way to write it.</description>
+    </item>
     
     <item>
       <title>What Coala Organization taught me: Reaching beyond the beginners threshold</title>

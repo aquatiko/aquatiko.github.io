@@ -4,47 +4,53 @@
   
   <url>
     <loc>https://aquatiko.github.io/blog/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/blog/2019-05/community-bonding-period-juliaastro/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://aquatiko.github.io/series/gsoc/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://aquatiko.github.io/tags/julia/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aquatiko.github.io/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aquatiko.github.io/series/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aquatiko.github.io/tags/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://aquatiko.github.io/blog/2019-05/wcs.jl-package-analysis/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <loc>https://aquatiko.github.io/tags/life/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aquatiko.github.io/tags/open-source/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/tags/julia/</loc>
     <lastmod>2019-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -56,6 +62,11 @@
   </url>
   
   <url>
+    <loc>https://aquatiko.github.io/blog/2019-05/wcs.jl-package-analysis/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://aquatiko.github.io/series/opensource/</loc>
     <lastmod>2019-05-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -64,12 +75,6 @@
   <url>
     <loc>https://aquatiko.github.io/blog/2019-05/what-coala-organization-taught-me-reaching-beyond-the-beginners-threshold/</loc>
     <lastmod>2019-05-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aquatiko.github.io/tags/life/</loc>
-    <lastmod>2019-05-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
