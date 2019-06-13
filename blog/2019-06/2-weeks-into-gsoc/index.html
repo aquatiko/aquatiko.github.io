@@ -7,30 +7,26 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
   <meta name="author" content="Rohit Kumar">
-  <meta name="description" content="Why this Community Bonding Period(CBP)? According to Google,
-&ldquo;The community bonding period is when you work out further details of your project plan, schedule regular upcoming meetings with your mentor, get your development environment set up and start to engage with the project’s open source community. This is the time to work with your mentor on setting expectations for your interactions and how your progress is measured during the GSoC program. Hopefully, you have already participated in many discussions with your mentor, clarifying the project and expectations during the application period, but now is the time to finalize your plans.&rdquo;
-How this period went for me? It really fulfilled everything it was supposed to. Hats off to Google for this initiative of adding an extra month in the timeline. So, In my whole project, I had most of the things figured out, like what will go in, what will go out, how will it be structured and implemented. Despite this, it follows a big BUT&hellip;
-But a very crucial and challenging task is to port reproject from astropy. It&rsquo;s like the most important feature of the project and requires some complex work like understanding the python version and figuring out a Julian way to write it.">
+  <meta name="description" content="I had a feeling in the community bonding period that something will mess up at the start of the coding period as I had the toughest part lined at the start. The same did happen&hellip; At the start, I had two weeks for porting reproject from Astropy. In short what it does is, it align two different astronomical images into a single frame of reference. While capturing an astronomical image, different conditions(like the position of the sky) affects the image captured. Thus, two images of the same region of interest will not be exactly similar when taken under different conditions. It may require to rotate, translate or interpolate them to get the result.
+So where the difficulty arises for me? Astropy is a very mature library but support for Astronomy in Julia is still growing. This means that I can&rsquo;t port line by line, I need to be creative. Plus the utility functions which the python version of reproject calls was not present in Julia. So at a basic level, it meant I had to port every other function in Julia or get a workaround using the existing things. So a project part which seemed within bounds at the beginning started growing exponentially and I haven&rsquo;t planned this.">
   
-  <meta property="og:title" content="Community Bonding Period: JuliaAstro" />
-<meta property="og:description" content="Why this Community Bonding Period(CBP)? According to Google,
-&ldquo;The community bonding period is when you work out further details of your project plan, schedule regular upcoming meetings with your mentor, get your development environment set up and start to engage with the project’s open source community. This is the time to work with your mentor on setting expectations for your interactions and how your progress is measured during the GSoC program. Hopefully, you have already participated in many discussions with your mentor, clarifying the project and expectations during the application period, but now is the time to finalize your plans.&rdquo;
-How this period went for me? It really fulfilled everything it was supposed to. Hats off to Google for this initiative of adding an extra month in the timeline. So, In my whole project, I had most of the things figured out, like what will go in, what will go out, how will it be structured and implemented. Despite this, it follows a big BUT&hellip;
-But a very crucial and challenging task is to port reproject from astropy. It&rsquo;s like the most important feature of the project and requires some complex work like understanding the python version and figuring out a Julian way to write it." />
+  <meta property="og:title" content="2 weeks into GSoC" />
+<meta property="og:description" content="I had a feeling in the community bonding period that something will mess up at the start of the coding period as I had the toughest part lined at the start. The same did happen&hellip; At the start, I had two weeks for porting reproject from Astropy. In short what it does is, it align two different astronomical images into a single frame of reference. While capturing an astronomical image, different conditions(like the position of the sky) affects the image captured. Thus, two images of the same region of interest will not be exactly similar when taken under different conditions. It may require to rotate, translate or interpolate them to get the result.
+So where the difficulty arises for me? Astropy is a very mature library but support for Astronomy in Julia is still growing. This means that I can&rsquo;t port line by line, I need to be creative. Plus the utility functions which the python version of reproject calls was not present in Julia. So at a basic level, it meant I had to port every other function in Julia or get a workaround using the existing things. So a project part which seemed within bounds at the beginning started growing exponentially and I haven&rsquo;t planned this." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://aquatiko.github.io/blog/2019-05/community-bonding-period-juliaastro/" />
-<meta property="article:published_time" content="2019-05-27T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2019-05-27T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://aquatiko.github.io/blog/2019-06/2-weeks-into-gsoc/" />
+<meta property="article:published_time" content="2019-06-12T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-06-12T00:00:00&#43;00:00"/>
 
 
 
   <title>
   
-       Community Bonding Period: JuliaAstro | Rohit Kumar 
+       2 weeks into GSoC | Rohit Kumar 
   
   </title>
 
-  <link rel="canonical" href="https://aquatiko.github.io/blog/2019-05/community-bonding-period-juliaastro/">
+  <link rel="canonical" href="https://aquatiko.github.io/blog/2019-06/2-weeks-into-gsoc/">
 
   
   
@@ -284,16 +280,16 @@ But a very crucial and challenging task is to port reproject from astropy. It&rs
     
     
       
-        <li><a href="https://aquatiko.github.io/series/gsoc"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>Gsoc</a></li>
+        <li><a href="https://aquatiko.github.io/series/gsoc"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>GSoC</a></li>
       
     
   </ul>
 
-  <div class="px-4 post-heading">Community Bonding Period: JuliaAstro</div>
+  <div class="px-4 post-heading">2 weeks into GSoC</div>
 
   <ul class="post-meta li-x mt-1">
     
-      <li>May 27, 2019</li>
+      <li>Jun 12, 2019</li>
     
 
     
@@ -309,41 +305,33 @@ But a very crucial and challenging task is to port reproject from astropy. It&rs
           <div class="post-content markdown">
             
 
-<p><img name="community" src="https://aquatiko.github.io/community.png" width='2500px'/></p>
+<p><img name="2weeks" src="https://aquatiko.github.io/2weeks.jpg" width='1500px'/></p>
 
-<h1 id="why-this-community-bonding-period-cbp">Why this Community Bonding Period(CBP)?</h1>
+<p>I had a feeling in the community bonding period that something will mess up at the start of the coding period as I had the toughest part lined at the start. The same did happen&hellip;
+At the start, I had two weeks for porting <code>reproject</code> from <code>Astropy</code>. In short what it does is, it align two different astronomical images into a single frame of reference. While capturing an astronomical image, different conditions(like the position of the sky) affects the image captured. Thus, two images of the same region of interest will not be exactly similar when taken under different conditions. It may require to rotate, translate or interpolate them to get the result.</p>
 
-<p><strong>According to Google,</strong></p>
+<h2 id="so-where-the-difficulty-arises-for-me">So where the difficulty arises for me?</h2>
 
-<hr />
+<p>Astropy is a very mature library but support for Astronomy in Julia is still growing. This means that I can&rsquo;t port line by line, I need to be creative. Plus the utility functions which the python version of <code>reproject</code> calls was not present in Julia. So at a basic level, it meant I had to port every other function in Julia or get a workaround using the existing things. So a project part which seemed within bounds at the beginning started growing exponentially and I haven&rsquo;t planned this.</p>
 
-<p>&ldquo;The community bonding period is when you work out further details of your project
-plan, schedule regular upcoming meetings with your mentor, get your development
-environment set up and start to engage with the project’s open source community. This
-is the time to work with your mentor on setting expectations for your interactions
-and how your progress is measured during the GSoC program. Hopefully, you have
-already participated in many discussions with your mentor, clarifying the project
-and expectations during the application period, but now is the time to finalize your
-plans.&rdquo;</p>
+<h2 id="so-how-i-went-ahead-to-complete-it">So how I went ahead to complete it?</h2>
 
-<hr />
+<p>In 2-3 days I realized how tuff this is going to be. Several iterations happened with the python version, tracing its output at each step and understanding the high-level working of the steps. I choose to focus on reproducing the high-level steps because going to low-level outputs might have forced me to port many things to reproduce the same result. Thus a wise choice at my end :)
+So, understanding the codebase and a possible workaround a week passed by. I was able to proceed in the right direction but after that <strong>I felt I hit a dead-end.</strong> I had reached the essence of the port, the crucial part which was calling the tricks here. I took some time understanding what it does in a whole. It converts coordinates between frames(like FK5, ICRS, Galactic etc.). I was lucky enough to find a subset of this functionality in <code>SkyCoords.jl</code> in Julia. I tweaked it a bit to get what I wanted.
+4 days until the 2nd week ends, I was sure I was going in the right direction and the intermediate results which I was comparing also starting to match. But I asked the mentors for an extension into 3rd weeks for this as I wasn&rsquo;t still sure I will get the exact results. I still wasn&rsquo;t able to reproject my very first image. Extension granted, thanks to my mentors.
+<strong>On Saturday, 2 days to before 2 weeks, something really clever clicked my mind and I was unable to restrain myself from coding it</strong>.
+And finally my first reprojected image, the idea has worked as it was supposed to:
+ <img name="res1" src="https://aquatiko.github.io/res1.png" width='1500px'/>
+ <img name="res2" src="https://aquatiko.github.io/res2.png" width='1500px'/>
+I was so happy at the results!!</p>
 
-<h1 id="how-this-period-went-for-me">How this period went for me?</h1>
+<h2 id="so-what-s-next-for-2-weeks">So what&rsquo;s next for 2 weeks?</h2>
 
-<p>It really fulfilled everything it was supposed to. Hats off to Google for this initiative of adding an extra month in the timeline. So, In my whole project, I had most of the things figured out, like what will go in, what will go out, how will it be structured and implemented. Despite this, it follows a big BUT&hellip;</p>
+<p>With <code>reproject</code> complete, next is
+- <strong>ccd2rgb function</strong>: It takes 3 images <em>(B/W)</em>, reprojects them and finally converts them into a single coloured image.
+- Writing extensive test and documentation for <code>reproject</code>.</p>
 
-<p>But a very crucial and challenging task is to port <code>reproject</code> from <code>astropy</code>. It&rsquo;s like the most important feature of the project and requires some complex work like understanding the python version and figuring out a Julian way to write it. When I tried looking at how will I achieve it during the Application preparation period of GSoC, I got the feeling of how complex it was. It requires many indirect python functions and I was confused then. This was the only part I was unsure about and it was a crucial requirement of the project too. Both me and my mentor agree on this part of the project being tricky.</p>
-
-<p>So, I decided to give as much time as possible to understand this part of the code in CBP. Also, I just wanted to finish with this part and move to implement all the cool features I proposed as soon as possible. In the CBP itself, I started porting it line by line, getting stuck many times. I tried to understand the whole structure of the <code>reproject</code> and broke it down into different segments. I created a tree structure of things which needs to go in order. I started investigating the things which are required in this project but not present in Julia, for getting a better idea of the scope this project carries.</p>
-
-<p>For the project, I had to gain knowledge about WCS, so I wrote down a guide to WCS.jl package which motivated me to learn about it and this will help others to gain an understanding of the package too as it lacks proper documentation.
-Next was a scheduled video conference with the mentors over Google Hangouts. I was a little nervous about meeting them for the very first time apart from our chats at riot. I was a little unsure about their expectation. I had some doubts about the project as I already started some coding. So we discussed the project structure, a little about each other, some things about astronomy and my doubts. Talking to them gave me new insights and direction to move further.</p>
-
-<p>By the end of CBP, I have understood the <code>reproject</code> part well and gained enough confidence and knowledge to complete it. I have 2-3 weeks for it but I think I might just finish it in a week.</p>
-
-<p>Also, I recently saw my handle <code>aquatiko</code> listed on the OpenAstronomy Universe Page, feels really great to be part of this community. This period has surely given me a head start in my project and a boost to finish up the most complex part lined at the start.</p>
-
-<p>And from today (27th May) the Coding period starts&hellip;</p>
+<p>Also, I&rsquo;m going as per my schedule and I think I will be able to start some part of 5th week in the 4th week itself.</p>
 
           </div>
 
@@ -357,7 +345,7 @@ Next was a scheduled video conference with the mentors over Google Hangouts. I w
   <li class="pr-0"><a href="https://aquatiko.github.io/tags/"><i class="fas fa-tags"></i></a></li>
   <div class="tags-sm">
     
-      <li><a href="https://aquatiko.github.io/tags/open-source" role="button">open-source </a></li>
+      <li><a href="https://aquatiko.github.io/tags/gsoc" role="button">GSoC </a></li>
       
     
       <li><a href="https://aquatiko.github.io/tags/life" role="button">life </a></li>
@@ -376,23 +364,16 @@ Next was a scheduled video conference with the mentors over Google Hangouts. I w
           <div class="row pt-3">
             <div class="col-md-6">
               
-                <a href=https://aquatiko.github.io/blog/2019-05/wcs.jl-package-analysis/ class="post-meta">Previous
+                <a href=https://aquatiko.github.io/blog/2019-05/community-bonding-period-juliaastro/ class="post-meta">Previous
                   <div class="pt-2 pb-5 d-flex">
                     <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
-                    <span>WCS.jl Package Analysis</span>
+                    <span>Community Bonding Period: JuliaAstro</span>
                   </div>
                 </a>
               
             </div>
             
             <div class="col-md-6 text-right" >
-              
-                <a href=https://aquatiko.github.io/blog/2019-06/2-weeks-into-gsoc/ class="post-meta">Next
-                  <div class="pt-2 pb-5 flex-reverse">
-                    <i class="fas fa-angle-right text-grey font-weight-bold ml-2 active-color"></i>
-                    <span>2 weeks into GSoC</span>
-                  </div>
-                </a>
               
             </div>
           </div>
@@ -438,8 +419,8 @@ Next was a scheduled video conference with the mentors over Google Hangouts. I w
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#why-this-community-bonding-period-cbp">
-												 Why this Community Bonding Period(CBP)?
+						 					<a class="nav-link" href="#so-where-the-difficulty-arises-for-me">
+												 So where the difficulty arises for me?
 											</a>
 										</li>
 						 
@@ -460,8 +441,30 @@ Next was a scheduled video conference with the mentors over Google Hangouts. I w
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#how-this-period-went-for-me">
-												 How this period went for me?
+						 					<a class="nav-link" href="#so-how-i-went-ahead-to-complete-it">
+												 So how I went ahead to complete it?
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#so-what-s-next-for-2-weeks">
+												 So what’s next for 2 weeks?
 											</a>
 										</li>
 						 

@@ -6,10 +6,20 @@
     <description>Recent content in GSoC on Rohit Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Thu, 09 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aquatiko.github.io/tags/gsoc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2 weeks into GSoC</title>
+      <link>https://aquatiko.github.io/blog/2019-06/2-weeks-into-gsoc/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/blog/2019-06/2-weeks-into-gsoc/</guid>
+      <description>I had a feeling in the community bonding period that something will mess up at the start of the coding period as I had the toughest part lined at the start. The same did happen&amp;hellip; At the start, I had two weeks for porting reproject from Astropy. In short what it does is, it align two different astronomical images into a single frame of reference. While capturing an astronomical image, different conditions(like the position of the sky) affects the image captured. Thus, two images of the same region of interest will not be exactly similar when taken under different conditions. It may require to rotate, translate or interpolate them to get the result.
+So where the difficulty arises for me? Astropy is a very mature library but support for Astronomy in Julia is still growing. This means that I can&amp;rsquo;t port line by line, I need to be creative. Plus the utility functions which the python version of reproject calls was not present in Julia. So at a basic level, it meant I had to port every other function in Julia or get a workaround using the existing things. So a project part which seemed within bounds at the beginning started growing exponentially and I haven&amp;rsquo;t planned this.</description>
+    </item>
     
     <item>
       <title>GSoC Initilization: The results day</title>
