@@ -316,10 +316,13 @@ At the start, I had two weeks for porting <code>reproject</code> from <code>Astr
 
 <h2 id="so-how-i-went-ahead-to-complete-it">So how I went ahead to complete it?</h2>
 
-<p>In 2-3 days I realized how tuff this is going to be. Several iterations happened with the python version, tracing its output at each step and understanding the high-level working of the steps. I choose to focus on reproducing the high-level steps because going to low-level outputs might have forced me to port many things to reproduce the same result. Thus a wise choice at my end :)
-So, understanding the codebase and a possible workaround a week passed by. I was able to proceed in the right direction but after that <strong>I felt I hit a dead-end.</strong> I had reached the essence of the port, the crucial part which was calling the tricks here. I took some time understanding what it does in a whole. It converts coordinates between frames(like FK5, ICRS, Galactic etc.). I was lucky enough to find a subset of this functionality in <code>SkyCoords.jl</code> in Julia. I tweaked it a bit to get what I wanted.
-4 days until the 2nd week ends, I was sure I was going in the right direction and the intermediate results which I was comparing also starting to match. But I asked the mentors for an extension into 3rd weeks for this as I wasn&rsquo;t still sure I will get the exact results. I still wasn&rsquo;t able to reproject my very first image. Extension granted, thanks to my mentors.
-<strong>On Saturday, 2 days to before 2 weeks, something really clever clicked my mind and I was unable to restrain myself from coding it</strong>.
+<p>In 2-3 days I realized how tuff this is going to be. Several iterations happened with the python version, tracing its output at each step and understanding the high-level working of the steps. I choose to focus on reproducing the high-level steps because going to low-level outputs might have forced me to port many things to reproduce the same result. Thus a wise choice at my end :)</p>
+
+<p>So, understanding the codebase and a possible workaround a week passed by. I was able to proceed in the right direction but after that <strong>I felt I hit a dead-end.</strong> I had reached the essence of the port, the crucial part which was calling the tricks here. I took some time understanding what it does in a whole. It converts coordinates between frames(like FK5, ICRS, Galactic etc.). I was lucky enough to find a subset of this functionality in <code>SkyCoords.jl</code> in Julia. I tweaked it a bit to get what I wanted.</p>
+
+<p>4 days until the 2nd week ends, I was sure I was going in the right direction and the intermediate results which I was comparing also starting to match. But I asked the mentors for an extension into 3rd weeks for this as I wasn&rsquo;t still sure I will get the exact results. I still wasn&rsquo;t able to reproject my very first image. Extension granted, thanks to my mentors.</p>
+
+<p><strong>On Saturday, 2 days to before 2 weeks, something really clever clicked my mind and I was unable to restrain myself from coding it</strong>.
 And finally my first reprojected image, the idea has worked as it was supposed to:
  <img name="res1" src="https://aquatiko.github.io/res1.png" width='1500px'/>
  <img name="res2" src="https://aquatiko.github.io/res2.png" width='1500px'/>
@@ -327,9 +330,13 @@ I was so happy at the results!!</p>
 
 <h2 id="so-what-s-next-for-2-weeks">So what&rsquo;s next for 2 weeks?</h2>
 
-<p>With <code>reproject</code> complete, next is
-- <strong>ccd2rgb function</strong>: It takes 3 images <em>(B/W)</em>, reprojects them and finally converts them into a single coloured image.
-- Writing extensive test and documentation for <code>reproject</code>.</p>
+<p>With <code>reproject</code> complete, next is</p>
+
+<ul>
+<li><p><strong>ccd2rgb function</strong>: It takes 3 images <em>(B/W)</em>, reprojects them and finally converts them into a single coloured image.</p></li>
+
+<li><p>Writing extensive test and documentation for <code>reproject</code>.</p></li>
+</ul>
 
 <p>Also, I&rsquo;m going as per my schedule and I think I will be able to start some part of 5th week in the 4th week itself.</p>
 
