@@ -6,10 +6,22 @@
     <description>Recent content on Rohit Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Wed, 12 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aquatiko.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>First Evaluation: 1 months into GSoC</title>
+      <link>https://aquatiko.github.io/blog/2019-06/first-evaluation-1-months-into-gsoc/</link>
+      <pubDate>Wed, 26 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/blog/2019-06/first-evaluation-1-months-into-gsoc/</guid>
+      <description>This month went by faster than I expected. Why? It&amp;rsquo;s because I had too much to do and I was excited enough to write the code and see how things will turn out. Will my ideas to create things in a certain way reflect in my code or not? What would I do if I spent too much time working on the wrong approach? Will I miss the deadline and how would I cope if I did? How my mentors evaluate me until now? Do I reach the full potential of a GSoC student? These things did trouble me a bit but luck was on my side and my mentors were super helpful to guide me through this.
+What things I achieved before my first evaluation? 1. Reproject.jl This was the trickiest part of my whole project, an important one too. This is a Julia package with 400+ lines of code which I wrote from scratch with my mentor reviewing my work from time to time.
+List of PRs: #1, #2, #3
+Why this package? On a high level, we are trying to achieve a way to represent Astronomical Images in Julia at AstroImages.jl (another new repository I&amp;rsquo;m working). Astronomical Images are a bit different from our everyday images in JPEG or PNG format, it can be very big in size, carries useful information about the image and comes in its own format i.</description>
+    </item>
     
     <item>
       <title>2 weeks into GSoC</title>
