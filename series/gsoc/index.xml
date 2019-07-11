@@ -6,10 +6,23 @@
     <description>Recent content in GSoC on Rohit Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Wed, 26 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aquatiko.github.io/series/gsoc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 5-6 at JuliaAstro</title>
+      <link>https://aquatiko.github.io/blog/2019-07/week-5-6-at-juliaastro/</link>
+      <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/blog/2019-07/week-5-6-at-juliaastro/</guid>
+      <description>List of Milestones achieved  Integrated WCS info. with AstroImages Plots #16 Registered the very first version of Reproject.jl #1643 Added Multi Image support to AstroImages #19 Added Multi WCS support to AstroImages #20  Plots and WCS info. Integration This involved writing a custom recipe for plotting AstroImages. Now using plot(img, header), users can display the world coordinates of AstroImages in the plot itself.
+1st version of Reproject With all the required functionalities introduced in Reproject.jl which are going to be used in AstroImages.jl, we released the very first version of Reproject.jl.
+We discovered that there is still some scope of optimization in Reproject.jl as its performance is not at par with the python version. It involves solving some type of instabilities in the dependencies it is using.
+MultiImage and MultiWCS support in AstroImage Previously AstroImage can store just a single 2D matrix of Image data. I introduced a functionality which allows AstroImage to carry more than one matrix of Image data. Also, as most of the applications will be based on WCSTransform, we thought keeping it there too is also a great idea.
+Week 7-8 tasks  Enable support for RGB images. Setup GUI for AstroImage interaction.  Also, this week I joined JuliaAstro organization on Github.</description>
+    </item>
     
     <item>
       <title>First Evaluation: 1 months into GSoC</title>
