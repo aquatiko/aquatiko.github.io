@@ -6,10 +6,23 @@
     <description>Recent content in GSoC on Rohit Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Wed, 10 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aquatiko.github.io/tags/gsoc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Second Evaluation: 2 months into GSoC</title>
+      <link>https://aquatiko.github.io/blog/2019-07/second-evaluation-2-months-into-gsoc/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/blog/2019-07/second-evaluation-2-months-into-gsoc/</guid>
+      <description>I thought the first month will be the toughest as there lies the trickiest part of the project. But guess what, the second month proved otherwise. But that&amp;rsquo;s the reality of GSoC, right?
+Until you have faced the challenges at least once, you won&amp;rsquo;t grow better to face it the next time. I am glad of the learning experience GSoC has given me. I used to think coming into OSS has improved my skill a lot but now I can see how much still I have to perfect myself. The following is the experience of the 2nd month of my GSoC project.
+What things I achieved before my second evaluation? 1. Plotting Interface for AstroImage This involved writing a custom recipe for plotting AstroImages. Now using plot(img, header), users can display the world coordinates of AstroImages in the plot itself.
+2. Image Interface for AstroImage Adding image interface required AstroImage package to fortify with many small features. But the toughest part was to maintain the performance and write code in a type stable manner. I got to know about mutiple dispatch from my mentor and how Julia is utilizing it to make everything faster and efficient.
+Additions for Image interface: * Multi Image support #19 * Multi WCS support #20 * Multi File support #21</description>
+    </item>
     
     <item>
       <title>Week 5-6 at JuliaAstro</title>
