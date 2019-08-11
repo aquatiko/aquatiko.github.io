@@ -15,7 +15,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://aquatiko.github.io/" />
 
-<meta property="og:updated_time" content="2019-07-23T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2019-08-10T00:00:00&#43;00:00"/>
 
 
   <title>
@@ -345,6 +345,8 @@
 
   
 
+  
+
 
 
 
@@ -368,7 +370,7 @@
             <li><a href="https://aquatiko.github.io/tags/life" role="button"><span>life (7)</span></a></li>
           
         
-            <li><a href="https://aquatiko.github.io/tags/gsoc" role="button"><span>gsoc (5)</span></a></li>
+            <li><a href="https://aquatiko.github.io/tags/gsoc" role="button"><span>gsoc (6)</span></a></li>
           
         
             <li><a href="https://aquatiko.github.io/tags/open-source" role="button"><span>open-source (4)</span></a></li>
@@ -391,6 +393,8 @@
 
 
         
+  
+
   
 
   
@@ -455,7 +459,7 @@
    
 
     
-    <h4 class="card-title"><strong>Gsoc (7)</strong></h4>
+    <h4 class="card-title"><strong>Gsoc (8)</strong></h4>
     
 
     
@@ -610,6 +614,67 @@
         
           
           <div>
+              
+                  <div class="post-wrapper white-bg post-card">
+  
+  <a href="https://aquatiko.github.io/blog/2019-08/week-9-10-at-juliaastro/">
+    <div class="post-header text-center">
+      <div class="px-4 post-heading">Week 9-10 at JuliaAstro</div>
+      <ul class="post-meta li-x mt-1">
+        
+          <li>Aug 10, 2019</li>
+        
+    
+        
+          <li class="middot"></li>
+          <li>3 minutes read</li>
+        
+      </ul>
+    </div>
+    
+
+    
+      List of Milestones achieved  Interpolator tweak #6
+ Multi File Support #21
+ ccd2rbg function #15
+ data matrix and WCSTransform tuple type parser #7
+ Support for RGB #22
+ Basic UI panel for AstroImages #3
+  Interpolator tweak #6 This patch to Reproject.jl was due to some realizations I had upon Mosè Giordano stressing over the fact that I should use isapprox rather than check_diff (my custom test method) in ccd2rgb PR. I realized that there was something at fault and after investigation, I found that there was a custom method of map_coordinate in original reproject of python version which I didn’t understand at that time and left it (as on large scale both gave same results). It created some differences on the edges of images reprojected. So after many hours of figuring out the trick they used, the check_diff was replaced by isapprox along with a tweak to the interpolator.
+Multi File Support #21 This PR was completed a long time ago but it’s build was failing on appvyeor viz. Windows build. I too along with my mentor was confused at first because Travis (Linux and Mac) build were all green and the logs in appvyeor were also non-sensical.......
+    
+  </a>
+
+  
+  
+  <div class="post-meta li-x mt-2 div-x">
+    <div>
+      
+      
+        
+          <li><a href="https://aquatiko.github.io/series/gsoc"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>GSoC</a></li>
+        
+      
+    </div>
+   
+    <div>
+      
+        
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="https://aquatiko.github.io/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="https://aquatiko.github.io/tags/gsoc" role="button">GSoC </a></li>
+      
+    
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+</div>
+
               
                   <div class="post-wrapper white-bg post-card">
   
@@ -834,66 +899,6 @@ So where the difficulty arises for me? Astropy is a very mature library but supp
   <div class="tags-sm">
     
       <li><a href="https://aquatiko.github.io/tags/gsoc" role="button">GSoC </a></li>
-      
-    
-      <li><a href="https://aquatiko.github.io/tags/life" role="button">life </a></li>
-      
-    
-  </div>
-</div>
-      
-    </div>
-  </div>
-
-</div>
-
-              
-                  <div class="post-wrapper white-bg post-card">
-  
-  <a href="https://aquatiko.github.io/blog/2019-05/community-bonding-period-juliaastro/">
-    <div class="post-header text-center">
-      <div class="px-4 post-heading">Community Bonding Period: JuliaAstro</div>
-      <ul class="post-meta li-x mt-1">
-        
-          <li>May 27, 2019</li>
-        
-    
-        
-          <li class="middot"></li>
-          <li>3 minutes read</li>
-        
-      </ul>
-    </div>
-    
-
-    
-      Why this Community Bonding Period(CBP)? According to Google,
-“The community bonding period is when you work out further details of your project plan, schedule regular upcoming meetings with your mentor, get your development environment set up and start to engage with the project’s open source community. This is the time to work with your mentor on setting expectations for your interactions and how your progress is measured during the GSoC program. Hopefully, you have already participated in many discussions with your mentor, clarifying the project and expectations during the application period, but now is the time to finalize your plans.”
-How this period went for me? It really fulfilled everything it was supposed to. Hats off to Google for this initiative of adding an extra month in the timeline. So, In my whole project, I had most of the things figured out, like what will go in, what will go out, how will it be structured and implemented. Despite this, it follows a big BUT…
-But a very crucial and challenging task is to port reproject from astropy. It’s like the most important feature of the project and requires some complex work like understanding the python version and figuring out a Julian way to write it.......
-    
-  </a>
-
-  
-  
-  <div class="post-meta li-x mt-2 div-x">
-    <div>
-      
-      
-        
-          <li><a href="https://aquatiko.github.io/series/gsoc"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>Gsoc</a></li>
-        
-      
-    </div>
-   
-    <div>
-      
-        
-<div class="li-x div-x post-meta">
-  <li class="pr-0"><a href="https://aquatiko.github.io/tags/"><i class="fas fa-tags"></i></a></li>
-  <div class="tags-sm">
-    
-      <li><a href="https://aquatiko.github.io/tags/open-source" role="button">open-source </a></li>
       
     
       <li><a href="https://aquatiko.github.io/tags/life" role="button">life </a></li>

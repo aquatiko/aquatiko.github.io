@@ -6,10 +6,26 @@
     <description>Recent content in GSoC on Rohit Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Tue, 23 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aquatiko.github.io/tags/gsoc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Week 9-10 at JuliaAstro</title>
+      <link>https://aquatiko.github.io/blog/2019-08/week-9-10-at-juliaastro/</link>
+      <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/blog/2019-08/week-9-10-at-juliaastro/</guid>
+      <description>List of Milestones achieved  Interpolator tweak #6
+ Multi File Support #21
+ ccd2rbg function #15
+ data matrix and WCSTransform tuple type parser #7
+ Support for RGB #22
+ Basic UI panel for AstroImages #3
+  Interpolator tweak #6 This patch to Reproject.jl was due to some realizations I had upon Mosè Giordano stressing over the fact that I should use isapprox rather than check_diff (my custom test method) in ccd2rgb PR. I realized that there was something at fault and after investigation, I found that there was a custom method of map_coordinate in original reproject of python version which I didn&amp;rsquo;t understand at that time and left it (as on large scale both gave same results). It created some differences on the edges of images reprojected. So after many hours of figuring out the trick they used, the check_diff was replaced by isapprox along with a tweak to the interpolator.
+Multi File Support #21 This PR was completed a long time ago but it&amp;rsquo;s build was failing on appvyeor viz. Windows build. I too along with my mentor was confused at first because Travis (Linux and Mac) build were all green and the logs in appvyeor were also non-sensical.</description>
+    </item>
     
     <item>
       <title>Second Evaluation: 2 months into GSoC</title>

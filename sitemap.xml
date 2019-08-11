@@ -4,43 +4,48 @@
   
   <url>
     <loc>https://aquatiko.github.io/blog/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://aquatiko.github.io/tags/gsoc/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aquatiko.github.io/series/gsoc/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/tags/gsoc/</loc>
+    <lastmod>2019-08-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aquatiko.github.io/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://aquatiko.github.io/blog/2019-07/second-evaluation-2-months-into-gsoc/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://aquatiko.github.io/series/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aquatiko.github.io/tags/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/blog/2019-08/week-9-10-at-juliaastro/</loc>
+    <lastmod>2019-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/blog/2019-07/second-evaluation-2-months-into-gsoc/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -82,14 +87,14 @@
   </url>
   
   <url>
-    <loc>https://aquatiko.github.io/series/technical-writing/</loc>
+    <loc>https://aquatiko.github.io/blog/2019-05/wcs.jl-package-analysis/</loc>
     <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://aquatiko.github.io/blog/2019-05/wcs.jl-package-analysis/</loc>
+    <loc>https://aquatiko.github.io/series/technical-writing/</loc>
     <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -120,13 +125,13 @@
   </url>
   
   <url>
-    <loc>https://aquatiko.github.io/tags/technology/</loc>
+    <loc>https://aquatiko.github.io/series/technology/</loc>
     <lastmod>2019-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://aquatiko.github.io/series/technology/</loc>
+    <loc>https://aquatiko.github.io/tags/technology/</loc>
     <lastmod>2019-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

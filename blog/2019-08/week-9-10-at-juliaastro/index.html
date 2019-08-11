@@ -7,32 +7,38 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
   <meta name="author" content="Rohit Kumar">
-  <meta name="description" content="I thought the first month will be the toughest as there lies the trickiest part of the project. But guess what, the second month proved otherwise. But that&rsquo;s the reality of GSoC, right?
-Until you have faced the challenges at least once, you won&rsquo;t grow better to face it the next time. I am glad of the learning experience GSoC has given me. I used to think coming into OSS has improved my skill a lot but now I can see how much still I have to perfect myself. The following is the experience of the 2nd month of my GSoC project.
-What things I achieved before my second evaluation? 1. Plotting Interface for AstroImage This involved writing a custom recipe for plotting AstroImages. Now using plot(img, header), users can display the world coordinates of AstroImages in the plot itself.
-2. Image Interface for AstroImage Adding image interface required AstroImage package to fortify with many small features. But the toughest part was to maintain the performance and write code in a type stable manner. I got to know about mutiple dispatch from my mentor and how Julia is utilizing it to make everything faster and efficient.
-Additions for Image interface: * Multi Image support #19 * Multi WCS support #20 * Multi File support #21">
+  <meta name="description" content="List of Milestones achieved  Interpolator tweak #6
+ Multi File Support #21
+ ccd2rbg function #15
+ data matrix and WCSTransform tuple type parser #7
+ Support for RGB #22
+ Basic UI panel for AstroImages #3
+  Interpolator tweak #6 This patch to Reproject.jl was due to some realizations I had upon Mosè Giordano stressing over the fact that I should use isapprox rather than check_diff (my custom test method) in ccd2rgb PR. I realized that there was something at fault and after investigation, I found that there was a custom method of map_coordinate in original reproject of python version which I didn&rsquo;t understand at that time and left it (as on large scale both gave same results). It created some differences on the edges of images reprojected. So after many hours of figuring out the trick they used, the check_diff was replaced by isapprox along with a tweak to the interpolator.
+Multi File Support #21 This PR was completed a long time ago but it&rsquo;s build was failing on appvyeor viz. Windows build. I too along with my mentor was confused at first because Travis (Linux and Mac) build were all green and the logs in appvyeor were also non-sensical.">
   
-  <meta property="og:title" content="Second Evaluation: 2 months into GSoC" />
-<meta property="og:description" content="I thought the first month will be the toughest as there lies the trickiest part of the project. But guess what, the second month proved otherwise. But that&rsquo;s the reality of GSoC, right?
-Until you have faced the challenges at least once, you won&rsquo;t grow better to face it the next time. I am glad of the learning experience GSoC has given me. I used to think coming into OSS has improved my skill a lot but now I can see how much still I have to perfect myself. The following is the experience of the 2nd month of my GSoC project.
-What things I achieved before my second evaluation? 1. Plotting Interface for AstroImage This involved writing a custom recipe for plotting AstroImages. Now using plot(img, header), users can display the world coordinates of AstroImages in the plot itself.
-2. Image Interface for AstroImage Adding image interface required AstroImage package to fortify with many small features. But the toughest part was to maintain the performance and write code in a type stable manner. I got to know about mutiple dispatch from my mentor and how Julia is utilizing it to make everything faster and efficient.
-Additions for Image interface: * Multi Image support #19 * Multi WCS support #20 * Multi File support #21" />
+  <meta property="og:title" content="Week 9-10 at JuliaAstro" />
+<meta property="og:description" content="List of Milestones achieved  Interpolator tweak #6
+ Multi File Support #21
+ ccd2rbg function #15
+ data matrix and WCSTransform tuple type parser #7
+ Support for RGB #22
+ Basic UI panel for AstroImages #3
+  Interpolator tweak #6 This patch to Reproject.jl was due to some realizations I had upon Mosè Giordano stressing over the fact that I should use isapprox rather than check_diff (my custom test method) in ccd2rgb PR. I realized that there was something at fault and after investigation, I found that there was a custom method of map_coordinate in original reproject of python version which I didn&rsquo;t understand at that time and left it (as on large scale both gave same results). It created some differences on the edges of images reprojected. So after many hours of figuring out the trick they used, the check_diff was replaced by isapprox along with a tweak to the interpolator.
+Multi File Support #21 This PR was completed a long time ago but it&rsquo;s build was failing on appvyeor viz. Windows build. I too along with my mentor was confused at first because Travis (Linux and Mac) build were all green and the logs in appvyeor were also non-sensical." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://aquatiko.github.io/blog/2019-07/second-evaluation-2-months-into-gsoc/" />
-<meta property="article:published_time" content="2019-07-23T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2019-07-23T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://aquatiko.github.io/blog/2019-08/week-9-10-at-juliaastro/" />
+<meta property="article:published_time" content="2019-08-10T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-08-10T00:00:00&#43;00:00"/>
 
 
 
   <title>
   
-       Second Evaluation: 2 months into GSoC | Rohit Kumar 
+       Week 9-10 at JuliaAstro | Rohit Kumar 
   
   </title>
 
-  <link rel="canonical" href="https://aquatiko.github.io/blog/2019-07/second-evaluation-2-months-into-gsoc/">
+  <link rel="canonical" href="https://aquatiko.github.io/blog/2019-08/week-9-10-at-juliaastro/">
 
   
   
@@ -291,16 +297,16 @@ Additions for Image interface: * Multi Image support #19 * Multi WCS support #20
     
   </ul>
 
-  <div class="px-4 post-heading">Second Evaluation: 2 months into GSoC</div>
+  <div class="px-4 post-heading">Week 9-10 at JuliaAstro</div>
 
   <ul class="post-meta li-x mt-1">
     
-      <li>Jul 23, 2019</li>
+      <li>Aug 10, 2019</li>
     
 
     
       <li class="middot"></li>
-      <li>2 minutes read</li>
+      <li>3 minutes read</li>
     
   </ul>
   
@@ -311,42 +317,69 @@ Additions for Image interface: * Multi Image support #19 * Multi WCS support #20
           <div class="post-content markdown">
             
 
-<p><img name="2month" src="https://aquatiko.github.io/2month.jpg" width='1500px'/></p>
+<p><img name="9-10" src="https://aquatiko.github.io/9-10.jpg" width='1000px'/></p>
 
-<p>I thought the first month will be the toughest as there lies the trickiest part of the project. But guess what, the second month proved otherwise. But that&rsquo;s the reality of GSoC, right?</p>
-
-<p>Until you have faced the challenges at least once, you won&rsquo;t grow better to face it the next time. I am glad of the learning experience GSoC has given me. I used to think coming into OSS has improved my skill a lot but now I can see how much still I have to perfect myself. The following is the experience of the 2nd month of my GSoC project.</p>
-
-<h1 id="what-things-i-achieved-before-my-second-evaluation">What things I achieved before my second evaluation?</h1>
-
-<h2 id="1-plotting-interface-for-astroimage">1. Plotting Interface for AstroImage</h2>
-
-<p>This involved writing a custom recipe for plotting AstroImages. Now using <code>plot(img, header)</code>, users can display the world coordinates of AstroImages in the plot itself.</p>
-
-<h2 id="2-image-interface-for-astroimage">2. Image Interface for AstroImage</h2>
-
-<p>Adding image interface required AstroImage package to fortify with many small features. But the toughest part was to maintain the performance and write code in a type stable manner. I got to know about  mutiple dispatch from my mentor and how Julia is utilizing it to make everything faster and efficient.</p>
-
-<p>Additions for Image interface:
-* Multi Image support <a href="https://github.com/JuliaAstro/AstroImages.jl/pull/19">#19</a>
-* Multi WCS support <a href="https://github.com/JuliaAstro/AstroImages.jl/pull/20">#20</a>
-* Multi File support <a href="https://github.com/JuliaAstro/AstroImages.jl/pull/21">#21</a></p>
-
-<p>Also, I&rsquo;m having some trouble with floating point inconsistencies in <a href="https://github.com/JuliaAstro/AstroImages.jl/pull/15">ccd2rgb</a> as it creates a problem on different platforms while testing on CI platforms like Travis. Hope I find a fix soon.</p>
-
-<h2 id="3-gui-interface-for-astroimage">3. GUI Interface for AstroImage</h2>
-
-<p>I have created the initial interface and set up a repository <a href="https://github.com/JuliaAstro/AstroImageView.jl">AstroImageView.jl</a>. This will hold the UI for AstroImage. I will soon push the code with the initial interface as it requires to take care of some more things.</p>
-
-<h1 id="what-will-i-be-doing-for-3rd-month">What will I be doing for 3rd month?</h1>
+<h1 id="list-of-milestones-achieved">List of Milestones achieved</h1>
 
 <ul>
-<li><p><strong>Extending GUI interface</strong>
-The GUI is under development and will be released with new additions.</p></li>
+<li><p>Interpolator tweak <a href="https://github.com/JuliaAstro/Reproject.jl/pull/6">#6</a></p></li>
 
-<li><p><strong>Design Distributable format for AstroImage</strong>
-This requires some core additions to AstroImages package, so that users can re-distribute the results obtained and share an AstroImage object for others to work on.</p></li>
+<li><p>Multi File Support <a href="https://github.com/JuliaAstro/AstroImages.jl/pull/21">#21</a></p></li>
+
+<li><p>ccd2rbg function <a href="https://github.com/JuliaAstro/AstroImages.jl/pull/15">#15</a></p></li>
+
+<li><p>data matrix and WCSTransform tuple type parser <a href="https://github.com/JuliaAstro/Reproject.jl/pull/7">#7</a></p></li>
+
+<li><p>Support for RGB <a href="https://github.com/JuliaAstro/AstroImages.jl/pull/22">#22</a></p></li>
+
+<li><p>Basic UI panel for AstroImages <a href="https://github.com/JuliaAstro/AstroImageView.jl/pull/3">#3</a></p></li>
 </ul>
+
+<h3 id="interpolator-tweak-6-https-github-com-juliaastro-reproject-jl-pull-6">Interpolator tweak <a href="https://github.com/JuliaAstro/Reproject.jl/pull/6">#6</a></h3>
+
+<p>This patch to <code>Reproject.jl</code> was due to some realizations I had upon Mosè Giordano stressing over the fact that I should use <code>isapprox</code> rather than <code>check_diff</code> (my custom test method) in <code>ccd2rgb</code> PR. I realized that there was something at fault and after investigation, I found that there was a custom method of <code>map_coordinate</code> in original reproject of python version which I didn&rsquo;t understand at that time and left it (as on large scale both gave same results). It created some differences on the edges of images reprojected. So after many hours of figuring out the trick they used, the <code>check_diff</code> was replaced by <code>isapprox</code> along with a tweak to the interpolator.</p>
+
+<h3 id="multi-file-support-21-https-github-com-juliaastro-astroimages-jl-pull-21">Multi File Support <a href="https://github.com/JuliaAstro/AstroImages.jl/pull/21">#21</a></h3>
+
+<p>This PR was completed a long time ago but it&rsquo;s build was failing on appvyeor viz. Windows build. I too along with my mentor was confused at first because Travis (Linux and Mac) build were all green and the logs in appvyeor were also non-sensical. But I saw EBUSY error somewhere there and thanks to a PR I solved getting the same error, I concluded that I was messing with a file I/O somewhere. Windows build is very picky about that, it just needs to be good. So, many experiments followed to identify the cause. The problem was not closing FITS file upon reading them, both in test and source. It gets closed automatically only in a <code>do</code> block and I didn&rsquo;t know that.</p>
+
+<p>So close the files you open XD !!</p>
+
+<h3 id="ccd2rbg-function-15-https-github-com-juliaastro-astroimages-jl-pull-15">ccd2rbg function <a href="https://github.com/JuliaAstro/AstroImages.jl/pull/15">#15</a></h3>
+
+<p>Upon the Interpolator tweak, I thought this will in easy. But floating point inaccuracies!!
+So in different platforms like Linux or Windows, the floating-point arithmetic is different and a small difference of order 1e-26 may be seen between computations. So, you can equate results with <code>==</code> to test your results.
+OK, so tests the approximate results than using <code>isapprox</code>.
+But what if the values associated with your image are also of order 1e-26. So, a small floating point error will be very large speaking relatively and your <code>isapprox</code> with <code>rtol</code> will not pass.
+I realized that in a scale of 0 to 1, numbers small as 1e-26 in the image are not that significant. So a rounded result up to 10 decimals did the trick.</p>
+
+<p>So yeah, realizations are important but get them fast.</p>
+
+<h3 id="data-matrix-and-wcstransform-tuple-type-parser-7-https-github-com-juliaastro-reproject-jl-pull-7">data matrix and WCSTransform tuple type parser <a href="https://github.com/JuliaAstro/Reproject.jl/pull/7">#7</a></h3>
+
+<p>This is a base type parser which was required to dispatch a new method for <code>ccd2rgb</code> PR.</p>
+
+<h3 id="support-for-rgb-22-https-github-com-juliaastro-astroimages-jl-pull-22">Support for RGB <a href="https://github.com/JuliaAstro/AstroImages.jl/pull/22">#22</a></h3>
+
+<p>Finally, with all the ingredients in place, it was time to enable support for RGB image. The mutable and immutables fields for an AstroImages are separated in different structs and <code>rgb_image</code> sits in <code>properties</code> struct.
+I wrote it this way as more such mutables are in line to get added there.</p>
+
+<h3 id="basic-ui-panel-for-astroimages-3-https-github-com-juliaastro-astroimageview-jl-pull-3">Basic UI panel for AstroImages <a href="https://github.com/JuliaAstro/AstroImageView.jl/pull/3">#3</a></h3>
+
+<p>The basic UI using <code>Gtk.jl</code> is completed. Tested and passing locally. It requires a release of <code>AstroImages.jl</code> which is still pending. So I am waiting until it gets merged in Julia registry and I can set up CI builds for <code>AstroImageView.jl</code> where the UI sits.</p>
+
+<h1 id="final-tasks-remaining">Final tasks remaining</h1>
+
+<p>Almost everything in the idea page of JuliaAstro is done up until now.
+Now, some part of the things that I proposed is left. I&rsquo;m still figuring out the best way to do it like this.</p>
+
+<ul>
+<li>Advanced UI panel for AstroImageView.jl</li>
+<li>Distributable format for AstroImage.jl</li>
+</ul>
+
+<p>The journey gets more challenging with time but the learning is too great with my mentor to help at crucial points.
+Hoping to end this with a bang!!</p>
 
           </div>
 
@@ -363,9 +396,6 @@ This requires some core additions to AstroImages package, so that users can re-d
       <li><a href="https://aquatiko.github.io/tags/gsoc" role="button">GSoC </a></li>
       
     
-      <li><a href="https://aquatiko.github.io/tags/life" role="button">life </a></li>
-      
-    
   </div>
 </div>
               </div>
@@ -379,23 +409,16 @@ This requires some core additions to AstroImages package, so that users can re-d
           <div class="row pt-3">
             <div class="col-md-6">
               
-                <a href=https://aquatiko.github.io/blog/2019-07/week-5-6-at-juliaastro/ class="post-meta">Previous
+                <a href=https://aquatiko.github.io/blog/2019-07/second-evaluation-2-months-into-gsoc/ class="post-meta">Previous
                   <div class="pt-2 pb-5 d-flex">
                     <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
-                    <span>Week 5-6 at JuliaAstro</span>
+                    <span>Second Evaluation: 2 months into GSoC</span>
                   </div>
                 </a>
               
             </div>
             
             <div class="col-md-6 text-right" >
-              
-                <a href=https://aquatiko.github.io/blog/2019-08/week-9-10-at-juliaastro/ class="post-meta">Next
-                  <div class="pt-2 pb-5 flex-reverse">
-                    <i class="fas fa-angle-right text-grey font-weight-bold ml-2 active-color"></i>
-                    <span>Week 9-10 at JuliaAstro</span>
-                  </div>
-                </a>
               
             </div>
           </div>
@@ -441,8 +464,8 @@ This requires some core additions to AstroImages package, so that users can re-d
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#what-things-i-achieved-before-my-second-evaluation">
-												 What things I achieved before my second evaluation?
+						 					<a class="nav-link" href="#list-of-milestones-achieved">
+												 List of Milestones achieved
 											</a>
 										</li>
 						 
@@ -462,15 +485,19 @@ This requires some core additions to AstroImages package, so that users can re-d
 								
 									<ul class="nav">
 								
+									<ul class="nav">
+								
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#1-plotting-interface-for-astroimage">
-												 1. Plotting Interface for AstroImage
+						 					<a class="nav-link" href="#interpolator-tweak-6-https-github-com-juliaastro-reproject-jl-pull-6">
+												 Interpolator tweak #6
 											</a>
 										</li>
 						 
 								
+								
+									</ul>
 								
 									</ul>
 								
@@ -488,15 +515,19 @@ This requires some core additions to AstroImages package, so that users can re-d
 								
 									<ul class="nav">
 								
+									<ul class="nav">
+								
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#2-image-interface-for-astroimage">
-												 2. Image Interface for AstroImage
+						 					<a class="nav-link" href="#multi-file-support-21-https-github-com-juliaastro-astroimages-jl-pull-21">
+												 Multi File Support #21
 											</a>
 										</li>
 						 
 								
+								
+									</ul>
 								
 									</ul>
 								
@@ -514,15 +545,109 @@ This requires some core additions to AstroImages package, so that users can re-d
 								
 									<ul class="nav">
 								
+									<ul class="nav">
+								
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#3-gui-interface-for-astroimage">
-												 3. GUI Interface for AstroImage
+						 					<a class="nav-link" href="#ccd2rbg-function-15-https-github-com-juliaastro-astroimages-jl-pull-15">
+												 ccd2rbg function #15
 											</a>
 										</li>
 						 
 								
+								
+									</ul>
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#data-matrix-and-wcstransform-tuple-type-parser-7-https-github-com-juliaastro-reproject-jl-pull-7">
+												 data matrix and WCSTransform tuple type parser #7
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#support-for-rgb-22-https-github-com-juliaastro-astroimages-jl-pull-22">
+												 Support for RGB #22
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#basic-ui-panel-for-astroimages-3-https-github-com-juliaastro-astroimageview-jl-pull-3">
+												 Basic UI panel for AstroImages #3
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
 								
 									</ul>
 								
@@ -541,8 +666,8 @@ This requires some core additions to AstroImages package, so that users can re-d
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#what-will-i-be-doing-for-3rd-month">
-												 What will I be doing for 3rd month?
+						 					<a class="nav-link" href="#final-tasks-remaining">
+												 Final tasks remaining
 											</a>
 										</li>
 						 
