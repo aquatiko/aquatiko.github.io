@@ -6,10 +6,32 @@
     <description>Recent content in GSoC on Rohit Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Sat, 10 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aquatiko.github.io/tags/gsoc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Final Report GSoC&#39;19: The curtain Falls</title>
+      <link>https://aquatiko.github.io/blog/2019-08/final-report-gsoc19-the-curtain-falls/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/blog/2019-08/final-report-gsoc19-the-curtain-falls/</guid>
+      <description>With over 2K+ lines of code, 3 repositories and countless discussions, Google Summer of 19 with OpenAstronomy (JuliaAstro) came to an end. The following is an attempt to summarize it in words (without the hard parts).
+Merged Pull Requests Reproject.jl: SLOC -&amp;gt; 586
+(Reprojects (a type of image conversion) Astronomical Images from one world coordinate to another.)
+#1, #2, #3, #4, #5, #6, #7
+AstroImages.jl: SLOC -&amp;gt; 1056
+(Integration of Astronomical Images with popular Image and Plotting libraries in Julia.)
+#7, #9, #12, #14, #15, #16, #17, #18, #19, #20, #21, #22, #23, #24
+AstroImageView.jl: SLOC -&amp;gt; 604
+(A GUI based visualization of AstroImages)
+#1, #2, #3, #4, #5, #6
+With this, I have completed all the things proposed before getting accepted into GSoC.
+Impact The amount of work done has integrated communities in Julia. Now JuliaAstro can work with JuliaImages, JuliaPlots, and JuliaGraphics.
+How we deal with astronomical images is different from how we deal with regular everyday images. The integration will now allow most of the methods coming from JuliaImages to be directly applicable to AstroImages.
+Plotting is always a great tool to visualize data. Now, with the custom plotting recipes integrated into AstroImages, users can visualize astronomical images on astronomical scales.</description>
+    </item>
     
     <item>
       <title>Week 9-10 at JuliaAstro</title>
