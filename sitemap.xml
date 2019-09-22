@@ -4,7 +4,48 @@
   
   <url>
     <loc>https://aquatiko.github.io/blog/</loc>
-    <lastmod>2019-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/blog/2019-09/prequelfirst-pr-to-juliaastro-making-impression/</loc>
+    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/tags/gsoc/</loc>
+    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/series/gsoc-prequel/</loc>
+    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/</loc>
+    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/series/</loc>
+    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/tags/</loc>
+    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/tags/open-source/</loc>
+    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14,31 +55,7 @@
   </url>
   
   <url>
-    <loc>https://aquatiko.github.io/tags/gsoc/</loc>
-    <lastmod>2019-08-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://aquatiko.github.io/series/gsoc/</loc>
-    <lastmod>2019-08-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://aquatiko.github.io/</loc>
-    <lastmod>2019-08-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://aquatiko.github.io/series/</loc>
-    <lastmod>2019-08-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://aquatiko.github.io/tags/</loc>
     <lastmod>2019-08-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -77,12 +94,6 @@
   <url>
     <loc>https://aquatiko.github.io/blog/2019-05/community-bonding-period-juliaastro/</loc>
     <lastmod>2019-05-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://aquatiko.github.io/tags/open-source/</loc>
-    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
