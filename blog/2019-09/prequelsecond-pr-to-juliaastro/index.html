@@ -7,28 +7,28 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
   <meta name="author" content="Rohit Kumar">
-  <meta name="description" content="PR info. 7th PR on AstroImages.jl. My first PR to JuliaAstro org. Task: Add a feature to change brightness/contrast of AstroImages in real-time in Jupyter notebook itself. Things used: Interact.jl for interactive Jupyter visualization.
-Back-story There was a criterion of OpenAstronomy that a student should have at least one PR to the project to be eligible for getting selected into the org. Our mentor Mose told us about this and as AstroImages.jl was a new package, there weren&rsquo;t enough issues to solve. So he came up with this idea that can be implemented to the package. Lucky me, I have done the same thing before while extending docs of Images.jl. I think this gave me an edge over others. Those days I was also contributing to JuliaText, so managing time for both org. was tuff. But as I knew how to do this, it was a quick PR.
-PR evaluation and learnings Mose was expecting the same thing which I had made. I also proposed some ideas like we can store this operation and change the data of FITS if the user wants according to this feature. But Mose highlighted that the data is holy, we shouldn&rsquo;t just modify it just carelessly.">
+  <meta name="description" content="PR info. 9th PR on AstroImages.jl(I only submitted 2 PR before getting selected for JuliaAstro although I had other PRs in other Julia related repos). Task: A FITS file can contain both images and/or tables related to an Astronomical image. So my task was to write something to handle cases when there is no image component present in the file. It&rsquo;s like adding corner cases. Things used: Nothing specific. But many iterations done due to not knowing standard things. (I was still new to Julia)
+Back-story My first PR was in and I discovered this one accidentally. I got an error while using a FITS file without an image component. Although we can specify our own index but by default AstroImages treated the first index of FITS as image component. But according to me, the system should be intelligent to handle such know situations (also was finding things to make PRs for). It later turned out to be an important observation.
+PR evaluation and learnings This PR started with pointing mistakes I did in the PR. I wasn&rsquo;t familiar with the concept of Multiple Dispatch then and I mixed development practices of Python too. I was opening the same file several times (in Astronomy it can go to GBs too).">
   
-  <meta property="og:title" content="(Prequel)First PR to JuliaAstro: Making Impression" />
-<meta property="og:description" content="PR info. 7th PR on AstroImages.jl. My first PR to JuliaAstro org. Task: Add a feature to change brightness/contrast of AstroImages in real-time in Jupyter notebook itself. Things used: Interact.jl for interactive Jupyter visualization.
-Back-story There was a criterion of OpenAstronomy that a student should have at least one PR to the project to be eligible for getting selected into the org. Our mentor Mose told us about this and as AstroImages.jl was a new package, there weren&rsquo;t enough issues to solve. So he came up with this idea that can be implemented to the package. Lucky me, I have done the same thing before while extending docs of Images.jl. I think this gave me an edge over others. Those days I was also contributing to JuliaText, so managing time for both org. was tuff. But as I knew how to do this, it was a quick PR.
-PR evaluation and learnings Mose was expecting the same thing which I had made. I also proposed some ideas like we can store this operation and change the data of FITS if the user wants according to this feature. But Mose highlighted that the data is holy, we shouldn&rsquo;t just modify it just carelessly." />
+  <meta property="og:title" content="(Prequel)Second PR to JuliaAstro" />
+<meta property="og:description" content="PR info. 9th PR on AstroImages.jl(I only submitted 2 PR before getting selected for JuliaAstro although I had other PRs in other Julia related repos). Task: A FITS file can contain both images and/or tables related to an Astronomical image. So my task was to write something to handle cases when there is no image component present in the file. It&rsquo;s like adding corner cases. Things used: Nothing specific. But many iterations done due to not knowing standard things. (I was still new to Julia)
+Back-story My first PR was in and I discovered this one accidentally. I got an error while using a FITS file without an image component. Although we can specify our own index but by default AstroImages treated the first index of FITS as image component. But according to me, the system should be intelligent to handle such know situations (also was finding things to make PRs for). It later turned out to be an important observation.
+PR evaluation and learnings This PR started with pointing mistakes I did in the PR. I wasn&rsquo;t familiar with the concept of Multiple Dispatch then and I mixed development practices of Python too. I was opening the same file several times (in Astronomy it can go to GBs too)." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://aquatiko.github.io/blog/2019-09/prequelfirst-pr-to-juliaastro-making-impression/" />
-<meta property="article:published_time" content="2019-09-22T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2019-09-22T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://aquatiko.github.io/blog/2019-09/prequelsecond-pr-to-juliaastro/" />
+<meta property="article:published_time" content="2019-09-24T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-09-24T00:00:00&#43;00:00"/>
 
 
 
   <title>
   
-       (Prequel)First PR to JuliaAstro: Making Impression | Rohit Kumar 
+       (Prequel)Second PR to JuliaAstro | Rohit Kumar 
   
   </title>
 
-  <link rel="canonical" href="https://aquatiko.github.io/blog/2019-09/prequelfirst-pr-to-juliaastro-making-impression/">
+  <link rel="canonical" href="https://aquatiko.github.io/blog/2019-09/prequelsecond-pr-to-juliaastro/">
 
   
   
@@ -287,16 +287,16 @@ PR evaluation and learnings Mose was expecting the same thing which I had made. 
     
   </ul>
 
-  <div class="px-4 post-heading">(Prequel)First PR to JuliaAstro: Making Impression</div>
+  <div class="px-4 post-heading">(Prequel)Second PR to JuliaAstro</div>
 
   <ul class="post-meta li-x mt-1">
     
-      <li>Sep 22, 2019</li>
+      <li>Sep 24, 2019</li>
     
 
     
       <li class="middot"></li>
-      <li>2 minutes read</li>
+      <li>3 minutes read</li>
     
   </ul>
   
@@ -309,26 +309,27 @@ PR evaluation and learnings Mose was expecting the same thing which I had made. 
 
 <h1 id="pr-info">PR info.</h1>
 
-<p><a href="https://github.com/JuliaAstro/AstroImages.jl/pull/7">7th</a> PR on AstroImages.jl. My first PR to JuliaAstro org.
-<strong>Task:</strong> Add a feature to change brightness/contrast of AstroImages in real-time in Jupyter notebook itself.
-<strong>Things used:</strong> Interact.jl for interactive Jupyter visualization.</p>
+<p><a href="https://github.com/JuliaAstro/AstroImages.jl/pull/9">9th</a> PR on AstroImages.jl(I only submitted 2 PR before getting selected for JuliaAstro although I had other PRs in other Julia related repos).
+<strong>Task:</strong> A FITS file can contain both images and/or tables related to an Astronomical image. So my task was to write something to handle cases when there is no image component present in the file. It&rsquo;s like adding corner cases.
+<strong>Things used:</strong> Nothing specific. But many iterations done due to not knowing standard things. (I was still new to Julia)</p>
 
 <h1 id="back-story">Back-story</h1>
 
-<p>There was a criterion of OpenAstronomy that a student should have at least one PR to the project to be eligible for getting selected into the org. Our mentor Mose told us about this and as AstroImages.jl was a new package, there weren&rsquo;t enough issues to solve.
-So he came up with this idea that can be implemented to the package. Lucky me, I have done the same thing before while extending docs of Images.jl. I think this gave me an edge over others. Those days I was also contributing to JuliaText, so managing time for both org. was tuff. But as I knew how to do this, it was a quick PR.</p>
+<p>My first PR was in and I discovered this one accidentally. I got an error while using a FITS file without an image component. Although we can specify our own index but by default AstroImages treated the first index of FITS as image component. But according to me, the system should be intelligent to handle such know situations (also was finding things to make PRs for). It later turned out to be an important observation.</p>
 
 <h1 id="pr-evaluation-and-learnings">PR evaluation and learnings</h1>
 
-<p>Mose was expecting the same thing which I had made. I also proposed some ideas like we can store this operation and change the data of FITS if the user wants according to this feature. But Mose highlighted that <strong>the data is holy</strong>, we shouldn&rsquo;t just modify it just carelessly. Those times I was new to Julia and didn&rsquo;t have a clear understanding of mutables and structs but later on, during GSoC, I implemented the exact idea in a safe and maintainable way.</p>
+<p>This PR started with pointing mistakes I did in the PR. I wasn&rsquo;t familiar with the concept of Multiple Dispatch then and I mixed development practices of Python too. I was opening the same file several times (in Astronomy it can go to GBs too). I also added internet dependency for downloading files for unit testing.
+<em>Important learning, it too tempting to just download test files and write unit tests on it but don&rsquo;t add that dependency unless it is very important. You can always write your own small test files to test behavior.</em></p>
 
-<p>Also, Mose himself wrote the tests as I was confused on how to write tests for such a function which doesn&rsquo;t give a concrete output. The answer was <strong>@test @inferred(your_function) == the_type_you_expect</strong>.
-<em>This taught me that tests can be written in a way such that we can test if the input and output types are as expected and are done with its unit tests.</em></p>
+<p>So I had to learn how to create a FITS file of several types. I borrowed that part from a related package tests. <em>It not wise to spend time on things that can be Googled easily.</em> So trying new things for the first time without understanding it well will come with its own failures. Here I got my very first rigid(tuff) CI failure. I asked for help but I think Mose was too busy to spend time sniffing it. <em>So I decided to do it on my own and yeah in OSS you will get this feeling a lot.</em></p>
 
-<p>At a later stage of this PR, I came to know about <em>MIME</em> functionality which lets you automatically renders visualization in Jupyter Notebook like plots, Interacts, and Images. i.e once you call something it automatically draws that in output cell of Jupyter Notebook.
-It was crucial learning for Jupyter Notebook integration and helped me in a later stage of GSoC too.</p>
+<p>In this PR, I saw my very first inter-platform failure. The tests passed for Linux but failed for Windows. I was thinking &ldquo;is this even possible, the water here and water miles apart will be H2O only. So, why is this failure?&rdquo;. I later found that I wasn&rsquo;t closing files after opening them. In many systems it is done automatically(Linux) but what if your environment doesn&rsquo;t do this? You need to do this manually.
+<em>So close the files you open!!</em></p>
 
-<p><em>The PR was completed a long before GSoC results were announced and this made me eligible to be selected in OpenAstronomy org. too. Thinking back, I was the only student who successfully passed this criteria in JuliaAstro.</em></p>
+<p>As the tests were failing for Windows (on appveyor) and I had Linux installed, so how could I possibly test it? I can&rsquo;t just make numerous commits in the same opened PR to find the right combination. It&rsquo;s bad for your image. So I came to know <em>you can do these tests for your forked repos each time you made a commit to it. You just need to make a free Travis account and enable testing for that repo.</em></p>
+
+<p>All things went well and this PR too 3 long weeks and finally got merged before GSoC results were out!!</p>
 
           </div>
 
@@ -361,23 +362,16 @@ It was crucial learning for Jupyter Notebook integration and helped me in a late
           <div class="row pt-3">
             <div class="col-md-6">
               
-                <a href=https://aquatiko.github.io/blog/2019-08/final-report-gsoc19-the-curtain-falls/ class="post-meta">Previous
+                <a href=https://aquatiko.github.io/blog/2019-09/prequelfirst-pr-to-juliaastro-making-impression/ class="post-meta">Previous
                   <div class="pt-2 pb-5 d-flex">
                     <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
-                    <span>Final Report GSoC&#39;19: The curtain Falls</span>
+                    <span>(Prequel)First PR to JuliaAstro: Making Impression</span>
                   </div>
                 </a>
               
             </div>
             
             <div class="col-md-6 text-right" >
-              
-                <a href=https://aquatiko.github.io/blog/2019-09/prequelsecond-pr-to-juliaastro/ class="post-meta">Next
-                  <div class="pt-2 pb-5 flex-reverse">
-                    <i class="fas fa-angle-right text-grey font-weight-bold ml-2 active-color"></i>
-                    <span>(Prequel)Second PR to JuliaAstro</span>
-                  </div>
-                </a>
               
             </div>
           </div>

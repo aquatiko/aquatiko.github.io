@@ -6,10 +6,21 @@
     <description>Recent content in GSoC Prequel on Rohit Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Sun, 22 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aquatiko.github.io/series/gsoc-prequel/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>(Prequel)Second PR to JuliaAstro</title>
+      <link>https://aquatiko.github.io/blog/2019-09/prequelsecond-pr-to-juliaastro/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/blog/2019-09/prequelsecond-pr-to-juliaastro/</guid>
+      <description>PR info. 9th PR on AstroImages.jl(I only submitted 2 PR before getting selected for JuliaAstro although I had other PRs in other Julia related repos). Task: A FITS file can contain both images and/or tables related to an Astronomical image. So my task was to write something to handle cases when there is no image component present in the file. It&amp;rsquo;s like adding corner cases. Things used: Nothing specific. But many iterations done due to not knowing standard things. (I was still new to Julia)
+Back-story My first PR was in and I discovered this one accidentally. I got an error while using a FITS file without an image component. Although we can specify our own index but by default AstroImages treated the first index of FITS as image component. But according to me, the system should be intelligent to handle such know situations (also was finding things to make PRs for). It later turned out to be an important observation.
+PR evaluation and learnings This PR started with pointing mistakes I did in the PR. I wasn&amp;rsquo;t familiar with the concept of Multiple Dispatch then and I mixed development practices of Python too. I was opening the same file several times (in Astronomy it can go to GBs too).</description>
+    </item>
     
     <item>
       <title>(Prequel)First PR to JuliaAstro: Making Impression</title>

@@ -14,7 +14,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://aquatiko.github.io/blog/" />
 
-<meta property="og:updated_time" content="2019-09-22T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2019-09-24T00:00:00&#43;00:00"/>
 
 
   <title>
@@ -304,6 +304,8 @@
 
   
 
+  
+
 
 
 
@@ -324,13 +326,13 @@
         
         
         
-            <li><a href="https://aquatiko.github.io/tags/gsoc" role="button"><span>gsoc (8)</span></a></li>
+            <li><a href="https://aquatiko.github.io/tags/gsoc" role="button"><span>gsoc (9)</span></a></li>
           
         
             <li><a href="https://aquatiko.github.io/tags/life" role="button"><span>life (8)</span></a></li>
           
         
-            <li><a href="https://aquatiko.github.io/tags/open-source" role="button"><span>open-source (5)</span></a></li>
+            <li><a href="https://aquatiko.github.io/tags/open-source" role="button"><span>open-source (6)</span></a></li>
           
         
             <li><a href="https://aquatiko.github.io/tags/julia" role="button"><span>julia (1)</span></a></li>
@@ -349,6 +351,8 @@
   
 
           
+  
+
   
 
   
@@ -432,7 +436,7 @@
               
                 <div class="px-2 middot"></div>
                 <div>
-                  13 posts
+                  14 posts
                 </div>
               
             </div>
@@ -522,6 +526,65 @@
 </ul>
 
           </div>
+
+          
+              <div class="post-wrapper white-bg post-card">
+  
+  <a href="https://aquatiko.github.io/blog/2019-09/prequelsecond-pr-to-juliaastro/">
+    <div class="post-header text-center">
+      <div class="px-4 post-heading">(Prequel)Second PR to JuliaAstro</div>
+      <ul class="post-meta li-x mt-1">
+        
+          <li>Sep 24, 2019</li>
+        
+    
+        
+          <li class="middot"></li>
+          <li>3 minutes read</li>
+        
+      </ul>
+    </div>
+    
+
+    
+      PR info. 9th PR on AstroImages.jl(I only submitted 2 PR before getting selected for JuliaAstro although I had other PRs in other Julia related repos). Task: A FITS file can contain both images and/or tables related to an Astronomical image. So my task was to write something to handle cases when there is no image component present in the file. It’s like adding corner cases. Things used: Nothing specific. But many iterations done due to not knowing standard things. (I was still new to Julia)
+Back-story My first PR was in and I discovered this one accidentally. I got an error while using a FITS file without an image component. Although we can specify our own index but by default AstroImages treated the first index of FITS as image component. But according to me, the system should be intelligent to handle such know situations (also was finding things to make PRs for). It later turned out to be an important observation.
+PR evaluation and learnings This PR started with pointing mistakes I did in the PR. I wasn’t familiar with the concept of Multiple Dispatch then and I mixed development practices of Python too. I was opening the same file several times (in Astronomy it can go to GBs too).......
+    
+  </a>
+
+  
+  
+  <div class="post-meta li-x mt-2 div-x">
+    <div>
+      
+      
+        
+          <li><a href="https://aquatiko.github.io/series/gsoc-prequel"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>GSoC Prequel</a></li>
+        
+      
+    </div>
+   
+    <div>
+      
+        
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="https://aquatiko.github.io/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="https://aquatiko.github.io/tags/gsoc" role="button">GSoC </a></li>
+      
+    
+      <li><a href="https://aquatiko.github.io/tags/open-source" role="button">open-source </a></li>
+      
+    
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+</div>
 
           
               <div class="post-wrapper white-bg post-card">
@@ -642,67 +705,6 @@ Plotting is always a great tool to visualize data. Now, with the custom plotting
       
     
       <li><a href="https://aquatiko.github.io/tags/life" role="button">life </a></li>
-      
-    
-  </div>
-</div>
-      
-    </div>
-  </div>
-
-</div>
-
-          
-              <div class="post-wrapper white-bg post-card">
-  
-  <a href="https://aquatiko.github.io/blog/2019-08/week-9-10-at-juliaastro/">
-    <div class="post-header text-center">
-      <div class="px-4 post-heading">Week 9-10 at JuliaAstro</div>
-      <ul class="post-meta li-x mt-1">
-        
-          <li>Aug 10, 2019</li>
-        
-    
-        
-          <li class="middot"></li>
-          <li>3 minutes read</li>
-        
-      </ul>
-    </div>
-    
-
-    
-      List of Milestones achieved  Interpolator tweak #6
- Multi File Support #21
- ccd2rbg function #15
- data matrix and WCSTransform tuple type parser #7
- Support for RGB #22
- Basic UI panel for AstroImages #3
-  Interpolator tweak #6 This patch to Reproject.jl was due to some realizations I had upon Mosè Giordano stressing over the fact that I should use isapprox rather than check_diff (my custom test method) in ccd2rgb PR. I realized that there was something at fault and after investigation, I found that there was a custom method of map_coordinate in original reproject of python version which I didn’t understand at that time and left it (as on large scale both gave same results). It created some differences on the edges of images reprojected. So after many hours of figuring out the trick they used, the check_diff was replaced by isapprox along with a tweak to the interpolator.
-Multi File Support #21 This PR was completed a long time ago but it’s build was failing on appvyeor viz. Windows build. I too along with my mentor was confused at first because Travis (Linux and Mac) build were all green and the logs in appvyeor were also non-sensical.......
-    
-  </a>
-
-  
-  
-  <div class="post-meta li-x mt-2 div-x">
-    <div>
-      
-      
-        
-          <li><a href="https://aquatiko.github.io/series/gsoc"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>GSoC</a></li>
-        
-      
-    </div>
-   
-    <div>
-      
-        
-<div class="li-x div-x post-meta">
-  <li class="pr-0"><a href="https://aquatiko.github.io/tags/"><i class="fas fa-tags"></i></a></li>
-  <div class="tags-sm">
-    
-      <li><a href="https://aquatiko.github.io/tags/gsoc" role="button">GSoC </a></li>
       
     
   </div>
