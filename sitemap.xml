@@ -108,14 +108,14 @@
   </url>
   
   <url>
-    <loc>https://aquatiko.github.io/blog/2019-05/wcs.jl-package-analysis/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://aquatiko.github.io/series/technical-writing/</loc>
     <lastmod>2019-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/blog/2019-05/wcs.jl-package-analysis/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
