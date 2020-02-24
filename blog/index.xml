@@ -6,10 +6,25 @@
     <description>Recent content on Rohit Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aquatiko.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GSoC winning Proposal</title>
+      <link>https://aquatiko.github.io/blog/2020-02/gsoc-winning-proposal/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/blog/2020-02/gsoc-winning-proposal/</guid>
+      <description>After forming many strategies and improvising them along the way, I decided that I will submit 2 proposals for GSoC 2019. Originally there is a limit of 3 proposals per student but as I started preparing from Nov 2018, I had enough time to curate 2 strong proposals.
+The proposal which got me GSoC&amp;rsquo;19 is: Visualization of astronomical images in Julia (Proposal)
+And my other proposal got me JSoC&amp;rsquo;19 (which I couldn&amp;rsquo;t pursue due to GSoC rules). I will add that too when I&amp;rsquo;m sure that it is of no use to me anymore and I can&amp;rsquo;t resubmit it XD;
+Some Tips for writing a good proposal  Keep it short and under 10-12 pages long. No one has enough time to read 20 pages. Use hyperlinks if you want to explain something more but don&amp;rsquo;t have space.
+ Try to follow the format which I have used. I have seen, compared and analyzed many proposals and this format covers most of the necessary things while keeping length into account.
+ Make sure to include some of your previous work which can help the mentors analyze your quality of work.
+ Approach your mentors early to get feedback on your proposal and make final changes 3-4 days before the deadline.</description>
+    </item>
     
     <item>
       <title>(Prequel)Second PR to JuliaAstro</title>

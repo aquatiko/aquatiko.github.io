@@ -4,8 +4,38 @@
   
   <url>
     <loc>https://aquatiko.github.io/blog/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/blog/2020-02/gsoc-winning-proposal/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/tags/open-source/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/series/opensource/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/series/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://aquatiko.github.io/tags/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -16,37 +46,11 @@
   <url>
     <loc>https://aquatiko.github.io/tags/gsoc/</loc>
     <lastmod>2019-09-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aquatiko.github.io/series/gsoc-prequel/</loc>
     <lastmod>2019-09-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://aquatiko.github.io/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://aquatiko.github.io/series/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://aquatiko.github.io/tags/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://aquatiko.github.io/tags/open-source/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -62,13 +66,11 @@
   <url>
     <loc>https://aquatiko.github.io/series/gsoc/</loc>
     <lastmod>2019-08-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aquatiko.github.io/tags/life/</loc>
     <lastmod>2019-08-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -104,24 +106,16 @@
   <url>
     <loc>https://aquatiko.github.io/tags/julia/</loc>
     <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://aquatiko.github.io/blog/2019-05/wcs.jl-package-analysis/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://aquatiko.github.io/series/technical-writing/</loc>
     <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://aquatiko.github.io/series/opensource/</loc>
-    <lastmod>2019-05-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://aquatiko.github.io/blog/2019-05/wcs.jl-package-analysis/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -142,19 +136,16 @@
   <url>
     <loc>https://aquatiko.github.io/tags/technical/</loc>
     <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aquatiko.github.io/series/technology/</loc>
     <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://aquatiko.github.io/tags/technology/</loc>
     <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -174,7 +165,6 @@
   
   <url>
     <loc>https://aquatiko.github.io/categories/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

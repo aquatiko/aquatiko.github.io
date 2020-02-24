@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>OpenSource on Rohit Kumar</title>
+    <title>Opensource on Rohit Kumar</title>
     <link>https://aquatiko.github.io/series/opensource/</link>
-    <description>Recent content in OpenSource on Rohit Kumar</description>
+    <description>Recent content in Opensource on Rohit Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Tue, 14 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://aquatiko.github.io/series/opensource/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GSoC winning Proposal</title>
+      <link>https://aquatiko.github.io/blog/2020-02/gsoc-winning-proposal/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://aquatiko.github.io/blog/2020-02/gsoc-winning-proposal/</guid>
+      <description>After forming many strategies and improvising them along the way, I decided that I will submit 2 proposals for GSoC 2019. Originally there is a limit of 3 proposals per student but as I started preparing from Nov 2018, I had enough time to curate 2 strong proposals.
+The proposal which got me GSoC&amp;rsquo;19 is: Visualization of astronomical images in Julia (Proposal)
+And my other proposal got me JSoC&amp;rsquo;19 (which I couldn&amp;rsquo;t pursue due to GSoC rules). I will add that too when I&amp;rsquo;m sure that it is of no use to me anymore and I can&amp;rsquo;t resubmit it XD;
+Some Tips for writing a good proposal  Keep it short and under 10-12 pages long. No one has enough time to read 20 pages. Use hyperlinks if you want to explain something more but don&amp;rsquo;t have space.
+ Try to follow the format which I have used. I have seen, compared and analyzed many proposals and this format covers most of the necessary things while keeping length into account.
+ Make sure to include some of your previous work which can help the mentors analyze your quality of work.
+ Approach your mentors early to get feedback on your proposal and make final changes 3-4 days before the deadline.</description>
+    </item>
     
     <item>
       <title>What Coala Organization taught me: Reaching beyond the beginners threshold</title>
