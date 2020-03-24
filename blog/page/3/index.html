@@ -14,7 +14,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://aquatiko.github.io/blog/" />
 
-<meta property="og:updated_time" content="2019-09-24T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2020-02-24T00:00:00+00:00" />
 
 
   <title>
@@ -306,6 +306,8 @@
 
   
 
+  
+
 
 
 
@@ -332,7 +334,7 @@
             <li><a href="https://aquatiko.github.io/tags/life" role="button"><span>life (8)</span></a></li>
           
         
-            <li><a href="https://aquatiko.github.io/tags/open-source" role="button"><span>open-source (6)</span></a></li>
+            <li><a href="https://aquatiko.github.io/tags/open-source" role="button"><span>open-source (7)</span></a></li>
           
         
             <li><a href="https://aquatiko.github.io/tags/julia" role="button"><span>julia (1)</span></a></li>
@@ -351,6 +353,8 @@
   
 
           
+  
+
   
 
   
@@ -403,7 +407,7 @@
           
             <li class="py-1"><a href="https://aquatiko.github.io/series/gsoc"><span>Gsoc (9)</span></a></li>
           
-            <li class="py-1"><a href="https://aquatiko.github.io/series/opensource"><span>Opensource (2)</span></a></li>
+            <li class="py-1"><a href="https://aquatiko.github.io/series/opensource"><span>Opensource (3)</span></a></li>
           
             <li class="py-1"><a href="https://aquatiko.github.io/series/technical-writing"><span>Technical-Writing (2)</span></a></li>
           
@@ -436,7 +440,7 @@
               
                 <div class="px-2 middot"></div>
                 <div>
-                  14 posts
+                  15 posts
                 </div>
               
             </div>
@@ -525,7 +529,66 @@
     
 </ul>
 
+
           </div>
+
+          
+              <div class="post-wrapper white-bg post-card">
+  
+  <a href="https://aquatiko.github.io/blog/2019-07/week-5-6-at-juliaastro/">
+    <div class="post-header text-center">
+      <div class="px-4 post-heading">Week 5-6 at JuliaAstro</div>
+      <ul class="post-meta li-x mt-1">
+        
+          <li>Jul 10, 2019</li>
+        
+    
+        
+          <li class="middot"></li>
+          <li>2 minutes read</li>
+        
+      </ul>
+    </div>
+    
+
+    
+      List of Milestones achieved  Integrated WCS info. with AstroImages Plots #16 Registered the very first version of Reproject.jl #1643 Added Multi Image support to AstroImages #19 Added Multi WCS support to AstroImages #20  Plots and WCS info. Integration This involved writing a custom recipe for plotting AstroImages. Now using plot(img, header), users can display the world coordinates of AstroImages in the plot itself.
+1st version of Reproject With all the required functionalities introduced in Reproject.jl which are going to be used in AstroImages.jl, we released the very first version of Reproject.jl.
+We discovered that there is still some scope of optimization in Reproject.jl as its performance is not at par with the python version. It involves solving some type of instabilities in the dependencies it is using.
+MultiImage and MultiWCS support in AstroImage Previously AstroImage can store just a single 2D matrix of Image data. I introduced a functionality which allows AstroImage to carry more than one matrix of Image data. Also, as most of the applications will be based on WCSTransform, we thought keeping it there too is also a great idea.
+Week 7-8 tasks  Enable support for RGB images. Setup GUI for AstroImage interaction.  Also, this week I joined JuliaAstro organization on Github.......
+    
+  </a>
+
+  
+  
+  <div class="post-meta li-x mt-2 div-x">
+    <div>
+      
+      
+        
+          <li><a href="https://aquatiko.github.io/series/gsoc"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>GSoC</a></li>
+        
+      
+    </div>
+   
+    <div>
+      
+        
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="https://aquatiko.github.io/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="https://aquatiko.github.io/tags/gsoc" role="button">GSoC </a></li>
+      
+    
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+</div>
 
           
               <div class="post-wrapper white-bg post-card">
@@ -646,66 +709,6 @@ So where the difficulty arises for me? Astropy is a very mature library but supp
 </div>
 
           
-              <div class="post-wrapper white-bg post-card">
-  
-  <a href="https://aquatiko.github.io/blog/2019-05/community-bonding-period-juliaastro/">
-    <div class="post-header text-center">
-      <div class="px-4 post-heading">Community Bonding Period: JuliaAstro</div>
-      <ul class="post-meta li-x mt-1">
-        
-          <li>May 27, 2019</li>
-        
-    
-        
-          <li class="middot"></li>
-          <li>3 minutes read</li>
-        
-      </ul>
-    </div>
-    
-
-    
-      Why this Community Bonding Period(CBP)? According to Google,
-“The community bonding period is when you work out further details of your project plan, schedule regular upcoming meetings with your mentor, get your development environment set up and start to engage with the project’s open source community. This is the time to work with your mentor on setting expectations for your interactions and how your progress is measured during the GSoC program. Hopefully, you have already participated in many discussions with your mentor, clarifying the project and expectations during the application period, but now is the time to finalize your plans.”
-How this period went for me? It really fulfilled everything it was supposed to. Hats off to Google for this initiative of adding an extra month in the timeline. So, In my whole project, I had most of the things figured out, like what will go in, what will go out, how will it be structured and implemented. Despite this, it follows a big BUT…
-But a very crucial and challenging task is to port reproject from astropy. It’s like the most important feature of the project and requires some complex work like understanding the python version and figuring out a Julian way to write it.......
-    
-  </a>
-
-  
-  
-  <div class="post-meta li-x mt-2 div-x">
-    <div>
-      
-      
-        
-          <li><a href="https://aquatiko.github.io/series/gsoc"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>Gsoc</a></li>
-        
-      
-    </div>
-   
-    <div>
-      
-        
-<div class="li-x div-x post-meta">
-  <li class="pr-0"><a href="https://aquatiko.github.io/tags/"><i class="fas fa-tags"></i></a></li>
-  <div class="tags-sm">
-    
-      <li><a href="https://aquatiko.github.io/tags/open-source" role="button">open-source </a></li>
-      
-    
-      <li><a href="https://aquatiko.github.io/tags/life" role="button">life </a></li>
-      
-    
-  </div>
-</div>
-      
-    </div>
-  </div>
-
-</div>
-
-          
             
         </div>
       </div>
@@ -756,7 +759,7 @@ But a very crucial and challenging task is to port reproject from astropy. It’
   
   <div class="copyright py-4">
     
-    <span>  2016 - 2019 &copy; | Theme <a href='https://github.com/orianna-zzo/AllinOne' target="_blank">AllinOne</a> by <a href='https://github.com/orianna-zzo' target="_blank">Orianna</a>  </span>
+    <span>  2016 - 2020 &copy; | Theme <a href='https://github.com/orianna-zzo/AllinOne' target="_blank">AllinOne</a> by <a href='https://github.com/orianna-zzo' target="_blank">Orianna</a>  </span>
   </div>
   
 

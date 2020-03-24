@@ -23,8 +23,8 @@ Creating a WCS object WCS objects are defined by a type WCSTransform which conta
  flag::Cint naxis::Cint crpix::Ptr{Cdouble} pc::Ptr{Cdouble} cdelt::Ptr{Cdouble} crval::Ptr{Cdouble} cunit::Ptr{Cvoid} ctype::Ptr{Cvoid} lonpole::Cdouble latpole::Cdouble restfrq::Cdouble restwav::Cdouble npv::Cint npvmax::Cint pv::Ptr{PVCard} nps::Cint npsmax::Cint ps::Ptr{PSCard} cd::Ptr{Cdouble} crota::Ptr{Cdouble} altlin::Cint velref::Cint alt::NTuple{4, UInt8} colnum::Cint colax::Ptr{Cint} cname::Ptr{Cvoid} crder::Ptr{Cdouble} csyer::Ptr{Cdouble} czphs::Ptr{Cdouble} cperi::Ptr{Cdouble} wcsname::NTuple{72, UInt8} timesys::NTuple{72, UInt8} trefpos::NTuple{72, UInt8} trefdir::NTuple{72, UInt8} plephem::NTuple{72, UInt8} timeunit::NTuple{72, UInt8} dateref::NTuple{72, UInt8} mjdref::NTuple{2, Cdouble} timeoffs::Cdouble dateobs::NTuple{72, UInt8} datebeg::NTuple{72, UInt8} dateavg::NTuple{72, UInt8} dateend::NTuple{72, UInt8} mjdobs::Cdouble mjdbeg::Cdouble mjdavg::Cdouble mjdend::Cdouble jepoch::Cdouble bepoch::Cdouble tstart::Cdouble tstop::Cdouble xposure::Cdouble telapse::Cdouble timsyer::Cdouble timrder::Cdouble timedel::Cdouble timepixr::Cdouble obsgeo::NTuple{6, Cdouble} obsorbit::NTuple{72, UInt8} radesys::NTuple{72, UInt8} equinox::Cdouble specsys::NTuple{72, UInt8} ssysobs::NTuple{72, UInt8} velosys::Cdouble zsource::Cdouble ssyssrc::NTuple{72, UInt8} velangl::Cdouble ntab::Cint nwtb::Cint tab::Ptr{Cvoid} # Ptr{tabprm} wtb::Ptr{Cvoid} # Ptr{wtbarr} lngtyp::NTuple{8, UInt8} lattyp::NTuple{8, UInt8} lng::Cint lat::Cint spec::Cint cubeface::Cint types::Ptr{Cint} lin::linprm cel::celprm spc::spcprm err::Ptr{WCSErr} m_flag::Cint m_naxis::Cint m_crpix::Ptr{Cdouble} m_pc::Ptr{Cdouble} m_cdelt::Ptr{Cdouble} m_crval::Ptr{Cdouble} m_cunit::Ptr{Cvoid} m_ctype::Ptr{Cvoid} m_pv::Ptr{PVCard} m_ps::Ptr{PSCard} m_cd::Ptr{Cdouble} m_crota::Ptr{Cdouble} m_colax::Ptr{Cint} m_cname::Ptr{Cvoid} m_crder::Ptr{Cdouble} m_csyer::Ptr{Cdouble} m_czphs::Ptr{Cdouble} m_cperi::Ptr{Cdouble} m_tab::Ptr{Cvoid} # Ptr{tabprm} m_wtb::Ptr{Cvoid} # Ptr{wtbarr}  Creating from scratch To create a WCSTransform from scratch, we can use the constructor like:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://aquatiko.github.io/blog/2019-05/wcs.jl-package-analysis/" />
-<meta property="article:published_time" content="2019-05-20T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2019-05-20T00:00:00&#43;00:00"/>
+<meta property="article:published_time" content="2019-05-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-05-20T00:00:00+00:00" />
 
 
 
@@ -529,11 +529,11 @@ julia&gt; worldcoords = pix_to_world(wcs, pixcoords)
 <h2 id="other-features">Other features</h2>
 
 <ul>
-<li>check what underlying C library version is being used.
-<code>
-julia&gt; WCS.wcslib_version()
+<li><p>check what underlying C library version is being used.</p>
+
+<pre><code>julia&gt; WCS.wcslib_version()
 v&quot;6.2.0&quot;
-</code></li>
+</code></pre></li>
 </ul>
 
           </div>
@@ -988,7 +988,7 @@ v&quot;6.2.0&quot;
   
   <div class="copyright py-4">
     
-    <span>  2016 - 2019 &copy; | Theme <a href='https://github.com/orianna-zzo/AllinOne' target="_blank">AllinOne</a> by <a href='https://github.com/orianna-zzo' target="_blank">Orianna</a>  </span>
+    <span>  2016 - 2020 &copy; | Theme <a href='https://github.com/orianna-zzo/AllinOne' target="_blank">AllinOne</a> by <a href='https://github.com/orianna-zzo' target="_blank">Orianna</a>  </span>
   </div>
   
 
